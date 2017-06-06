@@ -754,6 +754,17 @@ END HELPERS
       border-color: #003d6e;
       color: white;
       background-color: #003d6e; }
+  .aui .btn-cta-secondary-special, .aui .btn-cta-secondary-special-white {
+    display: inline-block;
+    box-shadow: none;
+    height: 50px;
+    line-height: 46px;
+    font-size: 20px;
+    padding: 0 30px;
+    border-radius: 50px;
+    font-family: "Avenir Next Demi";
+    letter-spacing: 1px;
+    white-space: nowrap; }
   .aui .btn-cta-text {
     display: inline-block;
     background: transparent;
