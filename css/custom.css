@@ -981,9 +981,9 @@ END HELPERS
       left: 0;
       bottom: 0;
       background-color: #fff; }
-  .aui body:not(.mobile-device) .disclaimer-block h3:hover span.white-border-bottom {
+  .aui body:not(.mobile-device) .disclaimer-block h3:hover span.black-border-bottom {
     position: relative; }
-    .aui body:not(.mobile-device) .disclaimer-block h3:hover span.white-border-bottom:after {
+    .aui body:not(.mobile-device) .disclaimer-block h3:hover span.black-border-bottom:after {
       content: "";
       width: 100%;
       height: 1px;
