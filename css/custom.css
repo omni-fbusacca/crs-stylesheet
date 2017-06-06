@@ -981,6 +981,16 @@ END HELPERS
       left: 0;
       bottom: 0;
       background-color: #fff; }
+  .aui body:not(.mobile-device) .disclaimer-block h3:hover span.white-border-bottom {
+    position: relative; }
+    .aui body:not(.mobile-device) .disclaimer-block h3:hover span.white-border-bottom:after {
+      content: "";
+      width: 100%;
+      height: 1px;
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      background-color: #000; }
   .aui body:not(.mobile-device) .promo-box-container .promo-box:hover .promo-overlay {
     background-color: #0f2033;
     opacity: 0.4; }
