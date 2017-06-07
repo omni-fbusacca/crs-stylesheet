@@ -214,7 +214,7 @@ START FONTS
     content: "\e91f";
     font-family: 'icomoon';
     font-size: 24px; }
-  .aui .avenir-reg, .aui .typo-h3.avenir-reg, .aui .faq-main-container #faq-body-container #faq-accordion .faq-accordion-container .faq-accordion-answer .accordion-body .right-text-section .answer-body.faq-wysiwyg h3.avenir-reg, .aui .typo-h4.avenir-reg, .aui .faq-main-container #faq-body-container #faq-accordion .faq-accordion-container .faq-accordion-answer .accordion-body .right-text-section .answer-body.faq-wysiwyg h4.avenir-reg, .aui .typo-h5, .aui .faq-main-container #faq-body-container #faq-accordion .faq-accordion-container .faq-accordion-answer .accordion-body .right-text-section .answer-body.faq-wysiwyg h5, .aui .copy-text, .aui .tooltip-field, .aui .wysiwyg-extend ul li, .aui .select2-container .select2-results .select2-results__option, .aui .about-us-text, .aui .about-us-text p, .aui .direction-post-b-100 .text-center, .aui .careers-box-container .careers-box, .aui .careers-box-container .careers-box p, .aui .careers-box-container .careers-box ul li, .aui .media-text-container .text-container p, .aui .form-container .shadow-input, .aui .form-container .shadow-input select, .aui .product-overview .product-desc-wrap, .aui .info-media-tag, .aui .list-cities-wrap a, .aui .list-cities-wrap button, .aui .faq-main-container #faq-body-container #faq-accordion .faq-accordion-container .faq-accordion-answer .accordion-body .right-text-section .answer-body.faq-wysiwyg p, .aui .faq-main-container #faq-body-container #faq-accordion .faq-accordion-container .faq-accordion-answer .accordion-body .right-text-section .answer-body.faq-wysiwyg ul li, .aui .contact-box .arrow, .aui .pagination-bar .post-link-box a.current-page {
+  .aui .avenir-reg, .aui .typo-h3.avenir-reg, .aui .faq-main-container #faq-body-container #faq-accordion .faq-accordion-container .faq-accordion-answer .accordion-body .right-text-section .answer-body.faq-wysiwyg h3.avenir-reg, .aui .typo-h4.avenir-reg, .aui .faq-main-container #faq-body-container #faq-accordion .faq-accordion-container .faq-accordion-answer .accordion-body .right-text-section .answer-body.faq-wysiwyg h4.avenir-reg, .aui .typo-h5, .aui .faq-main-container #faq-body-container #faq-accordion .faq-accordion-container .faq-accordion-answer .accordion-body .right-text-section .answer-body.faq-wysiwyg h5, .aui .copy-text, .aui .tooltip-field, .aui .wysiwyg-extend ul li, .aui .select2-container .select2-results .select2-results__option, .aui .about-us-text, .aui .about-us-text p, .aui .direction-post-b-100 .text-center, .aui .careers-box-container .careers-box, .aui .careers-box-container .careers-box p, .aui .careers-box-container .careers-box ul li, .aui .media-text-container .text-container p, .aui .form-container .shadow-input, .aui .form-container .shadow-input select, .aui .product-overview .product-desc-wrap, .aui .info-media-tag, .aui .list-cities-wrap a, .aui .list-cities-wrap button, .aui .faq-main-container #faq-body-container #faq-accordion .faq-accordion-container .faq-accordion-answer .accordion-body .right-text-section .answer-body.faq-wysiwyg p, .aui .faq-main-container #faq-body-container #faq-accordion .faq-accordion-container .faq-accordion-answer .accordion-body .right-text-section .answer-body.faq-wysiwyg ul li, .aui .small-text, .aui .contact-box .arrow, .aui .pagination-bar .post-link-box a.current-page {
     font-family: "AvenirNextLTW02-Regular";
     font-weight: normal; }
   .aui .avenir-med, .aui .typo-h1, .aui .faq-main-container #faq-body-container #faq-accordion .faq-accordion-container .faq-accordion-answer .accordion-body .right-text-section .answer-body.faq-wysiwyg h1, .aui .typo-h2, .aui .faq-main-container #faq-body-container #faq-accordion .faq-accordion-container .faq-accordion-answer .accordion-body .right-text-section .answer-body.faq-wysiwyg h2, .aui .typo-h3, .aui .faq-main-container #faq-body-container #faq-accordion .faq-accordion-container .faq-accordion-answer .accordion-body .right-text-section .answer-body.faq-wysiwyg h3, .aui .typo-h4, .aui .faq-main-container #faq-body-container #faq-accordion .faq-accordion-container .faq-accordion-answer .accordion-body .right-text-section .answer-body.faq-wysiwyg h4, .aui .typo-h6, .aui .location-finder-error-no-results, .aui .faq-main-container #faq-body-container #faq-accordion .faq-accordion-container .faq-accordion-answer .accordion-body .right-text-section .answer-body.faq-wysiwyg h6, .aui header .typo-meta-nav, .aui .main-navigation.nav-desktop .wrap-menu-mobile-right .second-level .second-menu-link > a {
@@ -377,6 +377,14 @@ START FONTS
     @media (max-width: 767px) {
       .aui .copy-text, .aui .tooltip-field, .aui .wysiwyg-extend ul li, .aui .select2-container .select2-results .select2-results__option, .aui .about-us-text, .aui .about-us-text p, .aui .direction-post-b-100 .text-center, .aui .careers-box-container .careers-box, .aui .careers-box-container .careers-box p, .aui .careers-box-container .careers-box ul li, .aui .media-text-container .text-container p, .aui .form-container .shadow-input, .aui .form-container .shadow-input select, .aui .product-overview .product-desc-wrap, .aui .info-media-tag, .aui .list-cities-wrap a, .aui .list-cities-wrap button, .aui .faq-main-container #faq-body-container #faq-accordion .faq-accordion-container .faq-accordion-answer .accordion-body .right-text-section .answer-body.faq-wysiwyg p, .aui .faq-main-container #faq-body-container #faq-accordion .faq-accordion-container .faq-accordion-answer .accordion-body .right-text-section .answer-body.faq-wysiwyg ul li {
         font-size: 16px; } }
+  .aui .small-text {
+    font-size: 14px;
+    line-height: 18px;
+    color: #000;
+    letter-spacing: 1px; }
+    @media (max-width: 320px) {
+      .aui .small-text {
+        font-size: 12px; } }
 
 /*********************
 END FONTS
@@ -659,6 +667,8 @@ END HELPERS
     text-align: center; }
   .aui input::-ms-clear {
     display: none; }
+  .aui .pantone-294 {
+    color: #003882; }
   .aui .btn-cta {
     display: inline-block;
     background: #f6861f;
@@ -2112,7 +2122,112 @@ END HELPERS
 COMPONENTS
 *********************/
 .aui {
-  /*Mobile Touch */ }
+  /*Mobile Touch */
+  /*
+.crs-type-content {
+    min-height: 200px;
+    @media (max-width: $tablet) {
+        min-height: 370px;
+    }
+    &.type-crs {
+        .border-icon {
+            border: 1px solid $coolgray-2;
+        }
+        .border-text, .border-image {
+            border-top: 1px solid $coolgray-2;
+            border-bottom: 1px solid $coolgray-2;
+            border-right: 1px solid $coolgray-2;
+        }
+        .crs-type-box {
+            min-height: 199px; 
+            @media (max-width: $tablet) {
+                min-height: 370px;
+            }
+ 
+            .image-container {
+                padding-top: 30px;
+            
+                img {
+                    height: 90px;
+                    width: auto;
+                }
+            }
+            .text-image-container {
+                padding-top: 20px;
+            }
+            .color-blue {
+                color: $pantone-294;
+            }
+            &.text-information-container {
+               position: relative;
+               padding-left: 20px;
+               .icon-stage_right {
+                   &.rotate {
+                       transform: rotate(90deg);
+                   }
+               }
+            }
+            &.crs-type-box-full-image {
+                background: url(../images/crs-type-crs.jpg);
+                background-size: cover;
+            }
+            .links-container {
+                position: absolute;
+                bottom: 20px;
+                a {
+                    color: grey;
+                    cursor: pointer;
+                    display: block;
+                }            
+            }
+
+            
+            
+        }
+        .information-open-box {
+            transition: all 0.4s;
+            border: 1px solid $coolgray-2;
+            position: relative;
+                .information-open-box-text {
+                    padding: 25px;                    
+                    @media (min-width: 1200px) {
+                        padding-right: 50px;
+                    }
+                    .icon-close {
+                        position: absolute;
+                        width: auto;
+                        right: 10px;
+                        cursor: pointer;
+                        font-size: 18px;
+                        color: $coolgray-2;
+                    }
+            }
+            .information-open-box-into-box {
+                padding-top: 10px;
+                padding-left: 20px;
+                @media (max-width: 320px) {
+                    padding-left: 5px;
+                }
+                border: 1px dashed $coolgray-2;
+                min-height: 120px;
+        }
+        }
+        .information-open-box.hide {
+            
+            height: 0px;
+            overflow: hidden !important;
+            opacity: 0;
+
+        }
+        .information-open-box-show {
+            display: block;
+            height: auto;
+            opacity: 1;
+        }
+        
+    }
+}
+*/ }
   .aui header {
     z-index: 1000;
     background: #FFF;
@@ -7377,6 +7492,163 @@ COMPONENTS
     line-height: 1.2; }
   .aui .promo-box-container .teaser-row-66 .text-container.only-button .btn-cta-secondary {
     margin: 0 30px 30px 0; }
+  .aui .crs-type-wrapper {
+    padding-bottom: 30px; }
+    .aui .crs-type-wrapper .clearfix {
+      clear: both;
+      float: none;
+      height: 0;
+      content: ""; }
+  .aui .crs-type-content {
+    min-height: 200px;
+    border: 1px solid #dbd9d1;
+    width: 100%; }
+    .aui .crs-type-content .crs-type-icon,
+    .aui .crs-type-content .crs-type-text,
+    .aui .crs-type-content .crs-type-image {
+      float: left;
+      height: 100%; }
+    .aui .crs-type-content .crs-type-icon {
+      text-align: center;
+      vertical-align: middle; }
+      .aui .crs-type-content .crs-type-icon .crs-type-icon-box img {
+        height: 100px; }
+      .aui .crs-type-content .crs-type-icon .crs-type-icon-box span {
+        display: inline-block;
+        text-transform: uppercase;
+        width: 100%;
+        padding-top: 20px;
+        font-size: 16px;
+        line-height: 16px; }
+    .aui .crs-type-content .crs-type-text {
+      border-right: 1px solid #dbd9d1;
+      border-left: 1px solid #dbd9d1;
+      padding: 15px;
+      position: relative; }
+      .aui .crs-type-content .crs-type-text .crs-type-text-box {
+        margin-bottom: 30px; }
+        .aui .crs-type-content .crs-type-text .crs-type-text-box .date-text {
+          font-size: 18px; }
+      .aui .crs-type-content .crs-type-text .crs-type-text-link .text-link, .aui .crs-type-content .crs-type-text .crs-type-text-link .wysiwyg-extend a, .aui .wysiwyg-extend .crs-type-content .crs-type-text .crs-type-text-link a, .aui .crs-type-content .crs-type-text .crs-type-text-link .text-link.blog-modal .blog-counter, .aui .text-link.blog-modal .crs-type-content .crs-type-text .crs-type-text-link .blog-counter, .aui .crs-type-content .crs-type-text .crs-type-text-link .faq-main-container #faq-body-container #faq-accordion .faq-accordion-container .faq-accordion-answer .accordion-body .right-text-section .answer-body.faq-wysiwyg a, .aui .faq-main-container #faq-body-container #faq-accordion .faq-accordion-container .faq-accordion-answer .accordion-body .right-text-section .answer-body.faq-wysiwyg .crs-type-content .crs-type-text .crs-type-text-link a {
+        font-size: 14px;
+        border: none;
+        cursor: pointer; }
+        .aui .crs-type-content .crs-type-text .crs-type-text-link .text-link .icon-stage_right, .aui .crs-type-content .crs-type-text .crs-type-text-link .wysiwyg-extend a .icon-stage_right, .aui .wysiwyg-extend .crs-type-content .crs-type-text .crs-type-text-link a .icon-stage_right, .aui .text-link.blog-modal .crs-type-content .crs-type-text .crs-type-text-link .blog-counter .icon-stage_right, .aui .crs-type-content .crs-type-text .crs-type-text-link .faq-main-container #faq-body-container #faq-accordion .faq-accordion-container .faq-accordion-answer .accordion-body .right-text-section .answer-body.faq-wysiwyg a .icon-stage_right, .aui .faq-main-container #faq-body-container #faq-accordion .faq-accordion-container .faq-accordion-answer .accordion-body .right-text-section .answer-body.faq-wysiwyg .crs-type-content .crs-type-text .crs-type-text-link a .icon-stage_right, .aui .crs-type-content .crs-type-text .crs-type-text-link .text-link .info-carousel .slick-next:before, .aui .info-carousel .crs-type-content .crs-type-text .crs-type-text-link .text-link .slick-next:before, .aui .crs-type-content .crs-type-text .crs-type-text-link .wysiwyg-extend a .info-carousel .slick-next:before, .aui .info-carousel .crs-type-content .crs-type-text .crs-type-text-link .wysiwyg-extend a .slick-next:before, .aui .wysiwyg-extend .crs-type-content .crs-type-text .crs-type-text-link a .info-carousel .slick-next:before, .aui .info-carousel .wysiwyg-extend .crs-type-content .crs-type-text .crs-type-text-link a .slick-next:before, .aui .text-link.blog-modal .crs-type-content .crs-type-text .crs-type-text-link .blog-counter .info-carousel .slick-next:before, .aui .info-carousel .text-link.blog-modal .crs-type-content .crs-type-text .crs-type-text-link .blog-counter .slick-next:before, .aui .crs-type-content .crs-type-text .crs-type-text-link .faq-main-container #faq-body-container #faq-accordion .faq-accordion-container .faq-accordion-answer .accordion-body .right-text-section .answer-body.faq-wysiwyg a .info-carousel .slick-next:before, .aui .info-carousel .crs-type-content .crs-type-text .crs-type-text-link .faq-main-container #faq-body-container #faq-accordion .faq-accordion-container .faq-accordion-answer .accordion-body .right-text-section .answer-body.faq-wysiwyg a .slick-next:before, .aui .faq-main-container #faq-body-container #faq-accordion .faq-accordion-container .faq-accordion-answer .accordion-body .right-text-section .answer-body.faq-wysiwyg .crs-type-content .crs-type-text .crs-type-text-link a .info-carousel .slick-next:before, .aui .info-carousel .faq-main-container #faq-body-container #faq-accordion .faq-accordion-container .faq-accordion-answer .accordion-body .right-text-section .answer-body.faq-wysiwyg .crs-type-content .crs-type-text .crs-type-text-link a .slick-next:before, .aui .crs-type-content .crs-type-text .crs-type-text-link .text-link .form-container .shadow-input.select:before, .aui .form-container .crs-type-content .crs-type-text .crs-type-text-link .text-link .shadow-input.select:before, .aui .crs-type-content .crs-type-text .crs-type-text-link .wysiwyg-extend a .form-container .shadow-input.select:before, .aui .form-container .crs-type-content .crs-type-text .crs-type-text-link .wysiwyg-extend a .shadow-input.select:before, .aui .wysiwyg-extend .crs-type-content .crs-type-text .crs-type-text-link a .form-container .shadow-input.select:before, .aui .form-container .wysiwyg-extend .crs-type-content .crs-type-text .crs-type-text-link a .shadow-input.select:before, .aui .text-link.blog-modal .crs-type-content .crs-type-text .crs-type-text-link .blog-counter .form-container .shadow-input.select:before, .aui .form-container .text-link.blog-modal .crs-type-content .crs-type-text .crs-type-text-link .blog-counter .shadow-input.select:before, .aui .crs-type-content .crs-type-text .crs-type-text-link .faq-main-container #faq-body-container #faq-accordion .faq-accordion-container .faq-accordion-answer .accordion-body .right-text-section .answer-body.faq-wysiwyg a .form-container .shadow-input.select:before, .aui .form-container .crs-type-content .crs-type-text .crs-type-text-link .faq-main-container #faq-body-container #faq-accordion .faq-accordion-container .faq-accordion-answer .accordion-body .right-text-section .answer-body.faq-wysiwyg a .shadow-input.select:before, .aui .faq-main-container #faq-body-container #faq-accordion .faq-accordion-container .faq-accordion-answer .accordion-body .right-text-section .answer-body.faq-wysiwyg .crs-type-content .crs-type-text .crs-type-text-link a .form-container .shadow-input.select:before, .aui .form-container .faq-main-container #faq-body-container #faq-accordion .faq-accordion-container .faq-accordion-answer .accordion-body .right-text-section .answer-body.faq-wysiwyg .crs-type-content .crs-type-text .crs-type-text-link a .shadow-input.select:before, .aui .crs-type-content .crs-type-text .crs-type-text-link .text-link body:not(.mobile-device) .form-container .shadow-input.select .select2-container .select2-selection .select2-selection__arrow, .aui body:not(.mobile-device) .form-container .shadow-input.select .select2-container .select2-selection .crs-type-content .crs-type-text .crs-type-text-link .text-link .select2-selection__arrow, .aui .crs-type-content .crs-type-text .crs-type-text-link .wysiwyg-extend a body:not(.mobile-device) .form-container .shadow-input.select .select2-container .select2-selection .select2-selection__arrow, .aui body:not(.mobile-device) .form-container .shadow-input.select .select2-container .select2-selection .crs-type-content .crs-type-text .crs-type-text-link .wysiwyg-extend a .select2-selection__arrow, .aui .wysiwyg-extend .crs-type-content .crs-type-text .crs-type-text-link a body:not(.mobile-device) .form-container .shadow-input.select .select2-container .select2-selection .select2-selection__arrow, .aui body:not(.mobile-device) .form-container .shadow-input.select .select2-container .select2-selection .wysiwyg-extend .crs-type-content .crs-type-text .crs-type-text-link a .select2-selection__arrow, .aui .text-link.blog-modal .crs-type-content .crs-type-text .crs-type-text-link .blog-counter body:not(.mobile-device) .form-container .shadow-input.select .select2-container .select2-selection .select2-selection__arrow, .aui body:not(.mobile-device) .form-container .shadow-input.select .select2-container .select2-selection .text-link.blog-modal .crs-type-content .crs-type-text .crs-type-text-link .blog-counter .select2-selection__arrow, .aui .crs-type-content .crs-type-text .crs-type-text-link .faq-main-container #faq-body-container #faq-accordion .faq-accordion-container .faq-accordion-answer .accordion-body .right-text-section .answer-body.faq-wysiwyg a body:not(.mobile-device) .form-container .shadow-input.select .select2-container .select2-selection .select2-selection__arrow, .aui body:not(.mobile-device) .form-container .shadow-input.select .select2-container .select2-selection .crs-type-content .crs-type-text .crs-type-text-link .faq-main-container #faq-body-container #faq-accordion .faq-accordion-container .faq-accordion-answer .accordion-body .right-text-section .answer-body.faq-wysiwyg a .select2-selection__arrow, .aui .faq-main-container #faq-body-container #faq-accordion .faq-accordion-container .faq-accordion-answer .accordion-body .right-text-section .answer-body.faq-wysiwyg .crs-type-content .crs-type-text .crs-type-text-link a body:not(.mobile-device) .form-container .shadow-input.select .select2-container .select2-selection .select2-selection__arrow, .aui body:not(.mobile-device) .form-container .shadow-input.select .select2-container .select2-selection .faq-main-container #faq-body-container #faq-accordion .faq-accordion-container .faq-accordion-answer .accordion-body .right-text-section .answer-body.faq-wysiwyg .crs-type-content .crs-type-text .crs-type-text-link a .select2-selection__arrow, .aui .crs-type-content .crs-type-text .crs-type-text-link .text-link .prod-comparison-wrapper .comparison-carousel-box button.slick-next:before, .aui .prod-comparison-wrapper .comparison-carousel-box .crs-type-content .crs-type-text .crs-type-text-link .text-link button.slick-next:before, .aui .crs-type-content .crs-type-text .crs-type-text-link .wysiwyg-extend a .prod-comparison-wrapper .comparison-carousel-box button.slick-next:before, .aui .prod-comparison-wrapper .comparison-carousel-box .crs-type-content .crs-type-text .crs-type-text-link .wysiwyg-extend a button.slick-next:before, .aui .wysiwyg-extend .crs-type-content .crs-type-text .crs-type-text-link a .prod-comparison-wrapper .comparison-carousel-box button.slick-next:before, .aui .prod-comparison-wrapper .comparison-carousel-box .wysiwyg-extend .crs-type-content .crs-type-text .crs-type-text-link a button.slick-next:before, .aui .text-link.blog-modal .crs-type-content .crs-type-text .crs-type-text-link .blog-counter .prod-comparison-wrapper .comparison-carousel-box button.slick-next:before, .aui .prod-comparison-wrapper .comparison-carousel-box .text-link.blog-modal .crs-type-content .crs-type-text .crs-type-text-link .blog-counter button.slick-next:before, .aui .crs-type-content .crs-type-text .crs-type-text-link .faq-main-container #faq-body-container #faq-accordion .faq-accordion-container .faq-accordion-answer .accordion-body .right-text-section .answer-body.faq-wysiwyg a .prod-comparison-wrapper .comparison-carousel-box button.slick-next:before, .aui .prod-comparison-wrapper .comparison-carousel-box .crs-type-content .crs-type-text .crs-type-text-link .faq-main-container #faq-body-container #faq-accordion .faq-accordion-container .faq-accordion-answer .accordion-body .right-text-section .answer-body.faq-wysiwyg a button.slick-next:before, .aui .faq-main-container #faq-body-container #faq-accordion .faq-accordion-container .faq-accordion-answer .accordion-body .right-text-section .answer-body.faq-wysiwyg .crs-type-content .crs-type-text .crs-type-text-link a .prod-comparison-wrapper .comparison-carousel-box button.slick-next:before, .aui .prod-comparison-wrapper .comparison-carousel-box .faq-main-container #faq-body-container #faq-accordion .faq-accordion-container .faq-accordion-answer .accordion-body .right-text-section .answer-body.faq-wysiwyg .crs-type-content .crs-type-text .crs-type-text-link a button.slick-next:before {
+          font-size: 10px;
+          margin-top: 4px; }
+      .aui .crs-type-content .crs-type-text.crs-type-no-image {
+        border-right: none; }
+    .aui .crs-type-content .crs-type-image .crs-type-image-box {
+      background-image: url(../images/crs-type-crs.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+      width: 100%;
+      max-height: 200px;
+      min-height: 200px;
+      height: 200px; }
+  .aui .click-information-open-box .icon-stage_right.rotate, .aui .click-information-open-box .info-carousel .rotate.slick-next:before, .aui .info-carousel .click-information-open-box .rotate.slick-next:before, .aui .click-information-open-box .form-container .rotate.shadow-input.select:before, .aui .form-container .click-information-open-box .rotate.shadow-input.select:before, .aui .click-information-open-box body:not(.mobile-device) .form-container .shadow-input.select .select2-container .select2-selection .rotate.select2-selection__arrow, .aui body:not(.mobile-device) .form-container .shadow-input.select .select2-container .select2-selection .click-information-open-box .rotate.select2-selection__arrow, .aui .click-information-open-box .prod-comparison-wrapper .comparison-carousel-box button.rotate.slick-next:before, .aui .prod-comparison-wrapper .comparison-carousel-box .click-information-open-box button.rotate.slick-next:before {
+    transform: rotate(90deg);
+    margin-top: 0px !important; }
+  .aui .crs-type-more-information {
+    border-left: 1px solid #dbd9d1;
+    border-right: 1px solid #dbd9d1;
+    border-bottom: 1px solid #dbd9d1;
+    padding: 30px 15px;
+    width: 100%;
+    position: relative; }
+    .aui .crs-type-more-information.hide {
+      max-height: 0;
+      opacity: 0; }
+    .aui .crs-type-more-information.show {
+      height: auto;
+      opacity: 1; }
+    .aui .crs-type-more-information .crs-type-more-information-row {
+      padding-bottom: 30px;
+      display: table; }
+      @media (max-width: 767px) {
+        .aui .crs-type-more-information .crs-type-more-information-row {
+          display: block; } }
+    .aui .crs-type-more-information .crs-type-more-information-text {
+      padding-right: 30px;
+      padding-bottom: 50px; }
+    .aui .crs-type-more-information .crs-type-more-information-sx {
+      border: 2px dashed #dbd9d1;
+      height: 100%;
+      padding: 15px;
+      display: table-cell; }
+      @media (max-width: 767px) {
+        .aui .crs-type-more-information .crs-type-more-information-sx {
+          border-bottom: 0;
+          display: block;
+          float: left;
+          width: 100%; } }
+      .aui .crs-type-more-information .crs-type-more-information-sx h2 {
+        padding-bottom: 10px; }
+      .aui .crs-type-more-information .crs-type-more-information-sx ul {
+        list-style: none; }
+        .aui .crs-type-more-information .crs-type-more-information-sx ul li {
+          position: relative;
+          padding-left: 25px;
+          margin-bottom: 5px;
+          font-size: 14px; }
+          .aui .crs-type-more-information .crs-type-more-information-sx ul li:before {
+            content: "";
+            font-size: 120px;
+            vertical-align: middle;
+            line-height: 16px;
+            left: 0px;
+            position: absolute;
+            color: #003d6e;
+            width: 9px;
+            height: 9px;
+            background-color: #003d6e;
+            border-radius: 20px;
+            top: 5px; }
+    .aui .crs-type-more-information .crs-type-more-information-dx {
+      border-top: 2px dashed #dbd9d1;
+      border-right: 2px dashed #dbd9d1;
+      border-bottom: 2px dashed #dbd9d1;
+      height: 100%;
+      padding: 15px;
+      display: table-cell; }
+      @media (max-width: 767px) {
+        .aui .crs-type-more-information .crs-type-more-information-dx {
+          display: block;
+          float: left;
+          width: 100%;
+          border-left: 2px dashed #dbd9d1; } }
+      .aui .crs-type-more-information .crs-type-more-information-dx h2 {
+        padding-bottom: 10px; }
+      .aui .crs-type-more-information .crs-type-more-information-dx ul {
+        list-style: none; }
+        .aui .crs-type-more-information .crs-type-more-information-dx ul li {
+          position: relative;
+          padding-left: 25px;
+          margin-bottom: 5px;
+          font-size: 14px; }
+          .aui .crs-type-more-information .crs-type-more-information-dx ul li:before {
+            content: "";
+            font-size: 120px;
+            vertical-align: middle;
+            line-height: 16px;
+            left: 0px;
+            position: absolute;
+            color: #003d6e;
+            width: 9px;
+            height: 9px;
+            background-color: #003d6e;
+            border-radius: 20px;
+            top: 5px; }
+    .aui .crs-type-more-information .crs-type-more-information-pdf a {
+      font-size: 14px;
+      border: none;
+      cursor: pointer; }
+      .aui .crs-type-more-information .crs-type-more-information-pdf a .icon-pdf:before {
+        color: #003882; }
+      .aui .crs-type-more-information .crs-type-more-information-pdf a .icon-stage_right, .aui .crs-type-more-information .crs-type-more-information-pdf a .info-carousel .slick-next:before, .aui .info-carousel .crs-type-more-information .crs-type-more-information-pdf a .slick-next:before, .aui .crs-type-more-information .crs-type-more-information-pdf a .form-container .shadow-input.select:before, .aui .form-container .crs-type-more-information .crs-type-more-information-pdf a .shadow-input.select:before, .aui .crs-type-more-information .crs-type-more-information-pdf a body:not(.mobile-device) .form-container .shadow-input.select .select2-container .select2-selection .select2-selection__arrow, .aui body:not(.mobile-device) .form-container .shadow-input.select .select2-container .select2-selection .crs-type-more-information .crs-type-more-information-pdf a .select2-selection__arrow, .aui .crs-type-more-information .crs-type-more-information-pdf a .prod-comparison-wrapper .comparison-carousel-box button.slick-next:before, .aui .prod-comparison-wrapper .comparison-carousel-box .crs-type-more-information .crs-type-more-information-pdf a button.slick-next:before {
+        font-size: 10px;
+        margin-top: 4px; }
 
 @media print {
   .aui {
