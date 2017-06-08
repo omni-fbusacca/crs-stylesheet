@@ -1439,10 +1439,13 @@ function crsAccordion(){
      });
 }
 function crsSameHeight(){
-     $('.crs-type-content').each(function(){
-          var thisCrsWrapper = $(this).outerHeight();
-          $(this).find(".crs-same-height").css("min-height",thisCrsWrapper+"px");
-     });
+     var windowSize = $(window).width();
+     if (windowSize >= 768) {
+          $('.crs-type-content').each(function(){
+               var thisCrsWrapper = $(this).outerHeight();
+               $(this).find(".crs-same-height").css("min-height",thisCrsWrapper+"px");
+          });
+     }
 }
 // Avoid `console` errors in browsers that lack a console.
 (function () {

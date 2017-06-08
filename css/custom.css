@@ -7728,6 +7728,9 @@ COMPONENTS
       .aui .crs-type-more-information .crs-type-more-information-pdf a .icon-stage_right, .aui .crs-type-more-information .crs-type-more-information-pdf a .info-carousel .slick-next:before, .aui .info-carousel .crs-type-more-information .crs-type-more-information-pdf a .slick-next:before, .aui .crs-type-more-information .crs-type-more-information-pdf a .form-container .shadow-input.select:before, .aui .form-container .crs-type-more-information .crs-type-more-information-pdf a .shadow-input.select:before, .aui .crs-type-more-information .crs-type-more-information-pdf a body:not(.mobile-device) .form-container .shadow-input.select .select2-container .select2-selection .select2-selection__arrow, .aui body:not(.mobile-device) .form-container .shadow-input.select .select2-container .select2-selection .crs-type-more-information .crs-type-more-information-pdf a .select2-selection__arrow, .aui .crs-type-more-information .crs-type-more-information-pdf a .prod-comparison-wrapper .comparison-carousel-box button.slick-next:before, .aui .prod-comparison-wrapper .comparison-carousel-box .crs-type-more-information .crs-type-more-information-pdf a button.slick-next:before {
         font-size: 10px;
         margin-top: 2px; }
+  @media (max-width: 767px) {
+    .aui .crs-same-height {
+      min-height: 200px; } }
 
 @media print {
   .aui {
