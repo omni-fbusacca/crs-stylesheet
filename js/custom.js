@@ -1430,7 +1430,12 @@ function crsAccordion(){
 
          //$(a).slideToggle('fast');
          $(".crs-type-more-information").not("."+a).slideUp(300);
-         
+         $(".close-accordion-icon").on('click',function(){
+          console.log("ssss");
+          var b = $(this).attr("data-accordion-close");
+          $(this).parents('.crs-type-wrapper').find('.click-information-open-box').removeClass('rotate');
+          $("."+ b).slideUp(300);
+         });
      });
 }
 // Avoid `console` errors in browsers that lack a console.
