@@ -117,9 +117,6 @@ START FONTS
     margin: 0;
     background-image: none;
     background-position: 0 0; }
-  .aui .dockbar [class^="icon-"], .aui .dockbar [class*=" icon-"] {
-  	font-family: 'fontawesome-alloy' !important;
-	}
   .aui .icon-check:before {
     content: "\e900";
     font-family: 'icomoon'; }
@@ -465,6 +462,10 @@ END HELPERS
 *********************/ }
   .aui .portlet-dockbar {
     z-index: 9999; }
+    
+  .aui .dockbar [class^="icon-"], .aui .dockbar [class*=" icon-"] {
+  	font-family: 'fontawesome-alloy' !important;
+	}
   .aui .dockbar-item.open .dropdown-menu {
     z-index: 99999999; }
   .aui .dockbar-user-notifications-container.open .dropdown-menu {
