@@ -7602,13 +7602,8 @@ COMPONENTS
     border-bottom: 1px solid #dbd9d1;
     padding: 30px 15px;
     width: 100%;
-    position: relative; }
-    .aui .crs-type-more-information.hide {
-      max-height: 0;
-      opacity: 0; }
-    .aui .crs-type-more-information.show {
-      height: auto;
-      opacity: 1; }
+    position: relative;
+    display: none; }
     .aui .crs-type-more-information .crs-type-more-information-row {
       padding-bottom: 30px;
       display: table;

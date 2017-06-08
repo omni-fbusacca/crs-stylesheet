@@ -1416,29 +1416,22 @@ $(window).resize(function(){
         }
     }
 });
-function crsTypeContent() {
- /*$(".click-information-open-box").on("click",function(){
-     var box = $(".information-open-box");
-     console.log(box);
-     $(this).find("span").toggleClass("rotate");
-     box.toggleClass("show");
-     box.toggleClass("hide");
- });
- $(".click-close-information-box").on("click",function(){
-     var box = $(".information-open-box");
-     $(".take-when-x-clicked").toggleClass("rotate");
-     box.toggleClass("show");
-     box.toggleClass("hide");
- })
- */
- $(".click-information-open-box").on("click",function(e){
- 	e.preventDefault();
- 	$(this).find(".take-when-x-clicked").toggleClass("rotate");
- 	var closestElement = $(this).closest('.crs-type-wrapper').find('.crs-type-more-information');
- 	closestElement.toggleClass("show");
-     closestElement.toggleClass("hide");
- });
- }
+
+ // Get all the links.
+var link = $(".click-information-open-box");
+
+// On clicking of the links do something.
+link.on('click', function(e) {
+
+    e.preventDefault();
+    $(this).toggleClass("rotate");
+    var a = $(this).attr("data-accordion");
+    $("."+ a).slideToggle(300);
+
+    //$(a).slideToggle('fast');
+    $(".crs-type-more-information").not("."+a).slideUp(300);
+    
+});
 // Avoid `console` errors in browsers that lack a console.
 (function () {
     var method;
@@ -1576,7 +1569,7 @@ $(document).ready(function () {
     blogcomment();
     blogCounter();
     modalReset();
-    crsTypeContent();
+
 
     /* Ellipsis start */
     setTimeout(initEllipsis, 100);
