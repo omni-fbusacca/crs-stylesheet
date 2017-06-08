@@ -7611,7 +7611,8 @@ COMPONENTS
       opacity: 1; }
     .aui .crs-type-more-information .crs-type-more-information-row {
       padding-bottom: 30px;
-      display: table; }
+      display: table;
+      width: 100%; }
       @media (max-width: 767px) {
         .aui .crs-type-more-information .crs-type-more-information-row {
           display: block; } }
