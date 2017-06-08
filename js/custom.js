@@ -1435,6 +1435,7 @@ function crsAccordion(){
           var b = $(this).attr("data-accordion-close");
           $(this).parents('.crs-type-wrapper').find('.click-information-open-box').removeClass('rotate');
           $("."+ b).slideUp(300);
+          $(".click-information-open-box").removeClass('rotate');
          });
      });
 }
