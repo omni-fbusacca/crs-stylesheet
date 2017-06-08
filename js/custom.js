@@ -1438,6 +1438,12 @@ function crsAccordion(){
          });
      });
 }
+function crsSameHeight(){
+     $('.crs-type-content').each(function(){
+          var thisCrsWrapper = $(this).outerHeight();
+          $(this).find(".crs-same-height").css("min-height",thisCrsWrapper+"px");
+     });
+}
 // Avoid `console` errors in browsers that lack a console.
 (function () {
     var method;
@@ -1576,6 +1582,7 @@ $(document).ready(function () {
     blogCounter();
     modalReset();
     crsAccordion();
+    crsSameHeight();
 
     /* Ellipsis start */
     setTimeout(initEllipsis, 100);
@@ -1588,7 +1595,6 @@ $(document).ready(function () {
         }, 100, "checkEllipsis");
     });
     /* Ellipsis end */
-
 
     // Init jquery plugin breakpoint for img load
     if ($('.img-breakpoint').length > 0) {
