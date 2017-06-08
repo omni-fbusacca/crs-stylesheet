@@ -7921,5 +7921,9 @@ COMPONENTS
       padding-bottom: 20px; }
       .aui .teaser-25-variant .copy-position {
         color: #000000 !important; } }
+        
+.dockbar [class^="icon-"], [class*=" icon-"] {
+  font-family: 'fontawesome-alloy' !important;
+}
 
 /*# sourceMappingURL=../maps/main.css.map */
