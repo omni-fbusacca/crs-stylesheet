@@ -1416,22 +1416,23 @@ $(window).resize(function(){
         }
     }
 });
+function crsAccordion(){
+      // Get all the links.
+     var link = $(".click-information-open-box");
 
- // Get all the links.
-var link = $(".click-information-open-box");
+     // On clicking of the links do something.
+     link.on('click', function(e) {
 
-// On clicking of the links do something.
-link.on('click', function(e) {
+         e.preventDefault();
+         $(this).toggleClass("rotate");
+         var a = $(this).attr("data-accordion");
+         $("."+ a).slideToggle(300);
 
-    e.preventDefault();
-    $(this).toggleClass("rotate");
-    var a = $(this).attr("data-accordion");
-    $("."+ a).slideToggle(300);
-
-    //$(a).slideToggle('fast');
-    $(".crs-type-more-information").not("."+a).slideUp(300);
-    
-});
+         //$(a).slideToggle('fast');
+         $(".crs-type-more-information").not("."+a).slideUp(300);
+         
+     });
+}
 // Avoid `console` errors in browsers that lack a console.
 (function () {
     var method;
@@ -1569,7 +1570,7 @@ $(document).ready(function () {
     blogcomment();
     blogCounter();
     modalReset();
-
+    crsAccordion();
 
     /* Ellipsis start */
     setTimeout(initEllipsis, 100);
