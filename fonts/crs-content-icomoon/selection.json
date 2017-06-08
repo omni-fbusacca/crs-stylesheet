@@ -22,7 +22,7 @@
         "isMulticolor2": false,
         "grid": 0,
         "tags": [
-          "crs-edu"
+          "edu"
         ]
       },
       "attrs": [
@@ -35,7 +35,7 @@
       "properties": {
         "order": 2,
         "id": 6,
-        "name": "crs-edu",
+        "name": "edu",
         "prevSize": 32,
         "code": 59648
       },
@@ -80,7 +80,7 @@
         "isMulticolor2": false,
         "grid": 0,
         "tags": [
-          "crs-consensus"
+          "consensus"
         ]
       },
       "attrs": [
@@ -101,7 +101,7 @@
       "properties": {
         "order": 3,
         "id": 5,
-        "name": "crs-consensus",
+        "name": "consensus",
         "prevSize": 32,
         "code": 59649
       },
@@ -161,7 +161,7 @@
         "isMulticolor2": false,
         "grid": 0,
         "tags": [
-          "crs-fad"
+          "corsofad"
         ]
       },
       "attrs": [
@@ -170,7 +170,7 @@
       "properties": {
         "order": 5,
         "id": 3,
-        "name": "crs-fad",
+        "name": "corsofad",
         "prevSize": 32,
         "code": 59651
       },
@@ -260,7 +260,7 @@
         "isMulticolor2": false,
         "grid": 0,
         "tags": [
-          "crs-report"
+          "reportcorso"
         ]
       },
       "attrs": [
@@ -272,7 +272,7 @@
       "properties": {
         "order": 7,
         "id": 1,
-        "name": "crs-report",
+        "name": "reportcorso",
         "prevSize": 32,
         "code": 59653
       },
@@ -295,7 +295,7 @@
         "isMulticolor2": false,
         "grid": 0,
         "tags": [
-          "crs-streaming"
+          "videostreaming"
         ]
       },
       "attrs": [
@@ -305,7 +305,7 @@
       "properties": {
         "order": 8,
         "id": 0,
-        "name": "crs-streaming",
+        "name": "videostreaming",
         "prevSize": 32,
         "code": 59654
       },

@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'crs-content-icomoon';
-  src:  url('fonts/crs-content-icomoon.eot?muixmj');
-  src:  url('fonts/crs-content-icomoon.eot?muixmj#iefix') format('embedded-opentype'),
-    url('fonts/crs-content-icomoon.ttf?muixmj') format('truetype'),
-    url('fonts/crs-content-icomoon.woff?muixmj') format('woff'),
-    url('fonts/crs-content-icomoon.svg?muixmj#crs-content-icomoon') format('svg');
+  src:  url('fonts/crs-content-icomoon.eot?vhmd54');
+  src:  url('fonts/crs-content-icomoon.eot?vhmd54#iefix') format('embedded-opentype'),
+    url('fonts/crs-content-icomoon.ttf?vhmd54') format('truetype'),
+    url('fonts/crs-content-icomoon.woff?vhmd54') format('woff'),
+    url('fonts/crs-content-icomoon.svg?vhmd54#crs-content-icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -24,24 +24,24 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-crs-edu:before {
+.icon-edu:before {
   content: "\e900";
 }
-.icon-crs-consensus:before {
+.icon-consensus:before {
   content: "\e901";
 }
 .icon-crs:before {
   content: "\e902";
 }
-.icon-crs-fad:before {
+.icon-corsofad:before {
   content: "\e903";
 }
 .icon-crs-international:before {
   content: "\e904";
 }
-.icon-crs-report:before {
+.icon-reportcorso:before {
   content: "\e905";
 }
-.icon-crs-streaming:before {
+.icon-videostreaming:before {
   content: "\e906";
 }
