@@ -7563,6 +7563,9 @@ COMPONENTS
         .aui .crs-type-content .crs-type-icon .crs-type-icon-box .crs-ico {
           font-size: 110px;
           display: block; }
+          @media (max-width: 767px) {
+            .aui .crs-type-content .crs-type-icon .crs-type-icon-box .crs-ico {
+              font-size: 60px; } }
         .aui .crs-type-content .crs-type-icon .crs-type-icon-box span.location-crs {
           display: inline-block;
           text-transform: uppercase;
@@ -7570,6 +7573,9 @@ COMPONENTS
           padding-top: 20px;
           font-size: 16px;
           line-height: 16px; }
+          @media (max-width: 767px) {
+            .aui .crs-type-content .crs-type-icon .crs-type-icon-box span.location-crs {
+              padding-top: 10px; } }
     .aui .crs-type-content .crs-type-text {
       border-right: 1px solid #dbd9d1;
       border-left: 1px solid #dbd9d1;
@@ -7719,13 +7725,11 @@ COMPONENTS
             background-color: #003d6e;
             border-radius: 20px;
             top: 5px; }
-    .aui .crs-type-more-information .crs-type-more-information-pdf a {
+    .aui .crs-type-more-information .crs-type-disclaimer a {
       font-size: 14px;
       border: none;
       cursor: pointer; }
-      .aui .crs-type-more-information .crs-type-more-information-pdf a .icon-pdf:before {
-        color: #003882; }
-      .aui .crs-type-more-information .crs-type-more-information-pdf a .icon-stage_right, .aui .crs-type-more-information .crs-type-more-information-pdf a .info-carousel .slick-next:before, .aui .info-carousel .crs-type-more-information .crs-type-more-information-pdf a .slick-next:before, .aui .crs-type-more-information .crs-type-more-information-pdf a .form-container .shadow-input.select:before, .aui .form-container .crs-type-more-information .crs-type-more-information-pdf a .shadow-input.select:before, .aui .crs-type-more-information .crs-type-more-information-pdf a body:not(.mobile-device) .form-container .shadow-input.select .select2-container .select2-selection .select2-selection__arrow, .aui body:not(.mobile-device) .form-container .shadow-input.select .select2-container .select2-selection .crs-type-more-information .crs-type-more-information-pdf a .select2-selection__arrow, .aui .crs-type-more-information .crs-type-more-information-pdf a .prod-comparison-wrapper .comparison-carousel-box button.slick-next:before, .aui .prod-comparison-wrapper .comparison-carousel-box .crs-type-more-information .crs-type-more-information-pdf a button.slick-next:before {
+      .aui .crs-type-more-information .crs-type-disclaimer a .icon-stage_right, .aui .crs-type-more-information .crs-type-disclaimer a .info-carousel .slick-next:before, .aui .info-carousel .crs-type-more-information .crs-type-disclaimer a .slick-next:before, .aui .crs-type-more-information .crs-type-disclaimer a .form-container .shadow-input.select:before, .aui .form-container .crs-type-more-information .crs-type-disclaimer a .shadow-input.select:before, .aui .crs-type-more-information .crs-type-disclaimer a body:not(.mobile-device) .form-container .shadow-input.select .select2-container .select2-selection .select2-selection__arrow, .aui body:not(.mobile-device) .form-container .shadow-input.select .select2-container .select2-selection .crs-type-more-information .crs-type-disclaimer a .select2-selection__arrow, .aui .crs-type-more-information .crs-type-disclaimer a .prod-comparison-wrapper .comparison-carousel-box button.slick-next:before, .aui .prod-comparison-wrapper .comparison-carousel-box .crs-type-more-information .crs-type-disclaimer a button.slick-next:before {
         font-size: 10px;
         margin-top: 2px; }
   @media (max-width: 767px) {
