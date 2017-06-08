@@ -7597,7 +7597,8 @@ COMPONENTS
     -moz-transition: all 0.3s ease;
     -webkit-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
-    transition: all 0.3s ease; }
+    transition: all 0.3s ease;
+    display: inline-block; }
   .aui .click-information-open-box.rotate .icon-stage_right, .aui .click-information-open-box.rotate .info-carousel .slick-next:before, .aui .info-carousel .click-information-open-box.rotate .slick-next:before, .aui .click-information-open-box.rotate .form-container .shadow-input.select:before, .aui .form-container .click-information-open-box.rotate .shadow-input.select:before, .aui .click-information-open-box.rotate body:not(.mobile-device) .form-container .shadow-input.select .select2-container .select2-selection .select2-selection__arrow, .aui body:not(.mobile-device) .form-container .shadow-input.select .select2-container .select2-selection .click-information-open-box.rotate .select2-selection__arrow, .aui .click-information-open-box.rotate .prod-comparison-wrapper .comparison-carousel-box button.slick-next:before, .aui .prod-comparison-wrapper .comparison-carousel-box .click-information-open-box.rotate button.slick-next:before {
     -webkit-transform: rotate(90deg);
     -moz-transform: rotate(90deg);
