@@ -396,7 +396,7 @@ END FONTS
   font-weight: normal;
   font-style: normal; }
 
-[class^="icon-"], [class*=" icon-"] {
+.aui .crs-type-icon [class^="icon-"], .aui .crs-type-icon [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'crs-content-icomoon';
   speak: none;
@@ -462,10 +462,6 @@ END HELPERS
 *********************/ }
   .aui .portlet-dockbar {
     z-index: 9999; }
-    
-  .aui .dockbar [class^="icon-"], .aui .dockbar [class*=" icon-"] {
-  	font-family: 'fontawesome-alloy' !important;
-	}
   .aui .dockbar-item.open .dropdown-menu {
     z-index: 99999999; }
   .aui .dockbar-user-notifications-container.open .dropdown-menu {
