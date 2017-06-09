@@ -398,7 +398,7 @@ END FONTS
 
 [class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'crs-content-icomoon' !important;
+  font-family: 'crs-content-icomoon';
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -7563,6 +7563,9 @@ COMPONENTS
         .aui .crs-type-content .crs-type-icon .crs-type-icon-box .crs-ico {
           font-size: 110px;
           display: block; }
+          @media (max-width: 1024px) {
+            .aui .crs-type-content .crs-type-icon .crs-type-icon-box .crs-ico {
+              font-size: 90px; } }
           @media (max-width: 767px) {
             .aui .crs-type-content .crs-type-icon .crs-type-icon-box .crs-ico {
               font-size: 60px; } }
