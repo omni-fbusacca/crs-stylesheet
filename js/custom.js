@@ -1425,13 +1425,17 @@ function crsAccordion(){
 
          e.preventDefault();
          $(this).toggleClass("rotate");
+         $(".click-information-open-box").not(this).each(function(){
+            if($(this).hasClass("rotate")){
+                $(this).removeClass("rotate");
+            }
+         })
          var a = $(this).attr("data-accordion");
          $("."+ a).slideToggle(300);
 
          //$(a).slideToggle('fast');
          $(".crs-type-more-information").not("."+a).slideUp(300);
          $(".close-accordion-icon").on('click',function(){
-          console.log("ssss");
           var b = $(this).attr("data-accordion-close");
           $(this).parents('.crs-type-wrapper').find('.click-information-open-box').removeClass('rotate');
           $("."+ b).slideUp(300);
