@@ -1970,6 +1970,8 @@ END HELPERS
     background-color: #003d6e; }
   .aui .bg-white {
     background-color: #fff; }
+  .aui .bg-light-grey {
+    background-color: #f1efee; }
   .aui .white-color {
     color: #fff !important; }
   .aui .border-radius {
