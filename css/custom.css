@@ -2167,112 +2167,7 @@ END HELPERS
 COMPONENTS
 *********************/
 .aui {
-  /*Mobile Touch */
-  /*
-.crs-type-content {
-    min-height: 200px;
-    @media (max-width: $tablet) {
-        min-height: 370px;
-    }
-    &.type-crs {
-        .border-icon {
-            border: 1px solid $coolgray-2;
-        }
-        .border-text, .border-image {
-            border-top: 1px solid $coolgray-2;
-            border-bottom: 1px solid $coolgray-2;
-            border-right: 1px solid $coolgray-2;
-        }
-        .crs-type-box {
-            min-height: 199px; 
-            @media (max-width: $tablet) {
-                min-height: 370px;
-            }
- 
-            .image-container {
-                padding-top: 30px;
-            
-                img {
-                    height: 90px;
-                    width: auto;
-                }
-            }
-            .text-image-container {
-                padding-top: 20px;
-            }
-            .color-blue {
-                color: $pantone-294;
-            }
-            &.text-information-container {
-               position: relative;
-               padding-left: 20px;
-               .icon-stage_right {
-                   &.rotate {
-                       transform: rotate(90deg);
-                   }
-               }
-            }
-            &.crs-type-box-full-image {
-                background: url(../images/crs-type-crs.jpg);
-                background-size: cover;
-            }
-            .links-container {
-                position: absolute;
-                bottom: 20px;
-                a {
-                    color: grey;
-                    cursor: pointer;
-                    display: block;
-                }            
-            }
-
-            
-            
-        }
-        .information-open-box {
-            transition: all 0.4s;
-            border: 1px solid $coolgray-2;
-            position: relative;
-                .information-open-box-text {
-                    padding: 25px;                    
-                    @media (min-width: 1200px) {
-                        padding-right: 50px;
-                    }
-                    .icon-close {
-                        position: absolute;
-                        width: auto;
-                        right: 10px;
-                        cursor: pointer;
-                        font-size: 18px;
-                        color: $coolgray-2;
-                    }
-            }
-            .information-open-box-into-box {
-                padding-top: 10px;
-                padding-left: 20px;
-                @media (max-width: 320px) {
-                    padding-left: 5px;
-                }
-                border: 1px dashed $coolgray-2;
-                min-height: 120px;
-        }
-        }
-        .information-open-box.hide {
-            
-            height: 0px;
-            overflow: hidden !important;
-            opacity: 0;
-
-        }
-        .information-open-box-show {
-            display: block;
-            height: auto;
-            opacity: 1;
-        }
-        
-    }
-}
-*/ }
+  /*Mobile Touch */ }
   .aui header {
     z-index: 1000;
     background: #FFF;
@@ -4677,6 +4572,8 @@ COMPONENTS
           .aui .promo-box-container .promo-box .text-container.only-button {
             bottom: 0; } }
         .aui .promo-box-container .promo-box .text-container.only-button .btn-cta-secondary-white {
+          margin: 0 30px 30px 0; }
+        .aui .promo-box-container .promo-box .text-container.only-button .btn-cta-secondary {
           margin: 0 30px 30px 0; }
         .aui .promo-box-container .promo-box .text-container.only-button > * {
           text-align: right; }
@@ -7573,6 +7470,9 @@ COMPONENTS
           @media (max-width: 767px) {
             .aui .crs-type-content .crs-type-icon .crs-type-icon-box .crs-ico {
               font-size: 60px; } }
+          @media (max-width: 375px) {
+            .aui .crs-type-content .crs-type-icon .crs-type-icon-box .crs-ico {
+              font-size: 40px; } }
         .aui .crs-type-content .crs-type-icon .crs-type-icon-box span.location-crs {
           display: inline-block;
           text-transform: uppercase;
