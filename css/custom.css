@@ -2007,6 +2007,8 @@ END HELPERS
       background: white; }
     .aui .me-spacer.me-spacer-background-grey {
       background: #f1efee; }
+    .aui .me-spacer.me-spacer-background-blue {
+      background: #f1efee; }
   .aui .animated {
     -webkit-animation-duration: 1s;
     animation-duration: 1s;
