@@ -448,9 +448,6 @@ START COMMONS
   /* Error Validation Form */
   /* Wysiwyg help*/
   /*********************
-END COMMONS
-*********************/
-  /*********************
 START HELPERS
 *********************/
   /* Start Padding */
@@ -712,12 +709,12 @@ END HELPERS
     color: #003882; }
   .aui .btn-cta {
     display: inline-block;
-    background: #f6861f;
+    background: #214f73;
     border: none;
     box-shadow: none;
     height: 50px;
-    line-height: 46px;
-    color: #222222;
+    line-height: 50px;
+    color: #f9f9f9;
     font-size: 20px;
     padding: 0 30px;
     border-radius: 50px;
@@ -725,8 +722,8 @@ END HELPERS
     letter-spacing: 1px;
     white-space: nowrap; }
     .aui .btn-cta:hover, .aui .btn-cta:focus {
-      background: #e37b1d;
-      color: #222222; }
+      background: #214f73;
+      color: #f9f9f9; }
   .aui .btn-cta-primary {
     display: inline-block;
     background: #003d6e;
@@ -945,8 +942,18 @@ END HELPERS
     font-size: 16px; }
   .aui .wysiwyg-extend p:last-child {
     padding-bottom: 0 !important; }
-  .aui .wysiwyg-extend ul li:last-child {
-    margin-bottom: 0; }
+  .aui .wysiwyg-extend ul {
+    padding-bottom: 10px; }
+    .aui .wysiwyg-extend ul li {
+      margin-bottom: 15px !important; }
+      .aui .wysiwyg-extend ul li:last-child {
+        margin-bottom: 0 !important; }
+  .aui .wysiwyg-extend ol {
+    padding-bottom: 20px;
+    margin-bottom: 0px; }
+    .aui .wysiwyg-extend ol li {
+      line-height: 26px;
+      padding-bottom: 4px; }
   .aui .Gray60, .aui .info-media-tag .public-date {
     color: #999999; }
   .aui .short-description-box, .aui .box-img, .aui .image-zoom, .aui .media-video {
@@ -1264,7 +1271,7 @@ END HELPERS
     padding-bottom: 10px !important; }
   .aui .pad-bottom-15-xs {
     padding-bottom: 15px !important; }
-  .aui .pad-bottom-20-xs {
+  .aui .pad-bottom-20-xs, .aui .wysiwyg-extend p {
     padding-bottom: 20px !important; }
   .aui .pad-bottom-25-xs {
     padding-bottom: 25px !important; }
@@ -1272,7 +1279,7 @@ END HELPERS
     padding-bottom: 30px !important; }
   .aui .pad-bottom-35-xs {
     padding-bottom: 35px !important; }
-  .aui .pad-bottom-40-xs, .aui .wysiwyg-extend p {
+  .aui .pad-bottom-40-xs {
     padding-bottom: 40px !important; }
   .aui .pad-bottom-45-xs {
     padding-bottom: 45px !important; }
@@ -7456,7 +7463,9 @@ COMPONENTS
     .aui .crs-type-content .crs-type-icon {
       text-align: center;
       vertical-align: middle;
-      position: relative; }
+      position: relative;
+      background-color: #003d6e;
+      color: white; }
       .aui .crs-type-content .crs-type-icon .crs-type-icon-box {
         position: absolute;
         top: 50%;
@@ -7467,11 +7476,8 @@ COMPONENTS
         -webkit-transform: translate(-50%, -50%);
         transform: translate(-50%, -50%); }
         .aui .crs-type-content .crs-type-icon .crs-type-icon-box .crs-ico {
-          font-size: 110px;
+          font-size: 80px;
           display: block; }
-          @media (max-width: 1024px) {
-            .aui .crs-type-content .crs-type-icon .crs-type-icon-box .crs-ico {
-              font-size: 90px; } }
           @media (max-width: 767px) {
             .aui .crs-type-content .crs-type-icon .crs-type-icon-box .crs-ico {
               font-size: 60px; } }
@@ -7647,6 +7653,18 @@ COMPONENTS
   @media (max-width: 767px) {
     .aui .crs-same-height {
       min-height: 200px; } }
+  .aui .single-comunicato .titolo-comunicato {
+    font-family: AvenirNextLTW02-Regular;
+    font-size: 18px; }
+  .aui .single-comunicato .data-comunicato, .aui .single-comunicato .download-comunicato {
+    text-align: center; }
+  .aui .single-comunicato .data-comunicato {
+    font-weight: bold; }
+  .aui .single-comunicato:nth-child(odd) {
+    background-color: rgba(0, 56, 130, 0.07); }
+  .aui .single-comunicato .download-comunicato .attachment-pdf svg {
+    width: 34px;
+    height: 34px; }
 
 @media print {
   .aui {
