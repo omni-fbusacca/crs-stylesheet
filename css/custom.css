@@ -7653,18 +7653,21 @@ COMPONENTS
   @media (max-width: 767px) {
     .aui .crs-same-height {
       min-height: 200px; } }
-  .aui .single-comunicato .titolo-comunicato {
-    font-family: AvenirNextLTW02-Regular;
-    font-size: 18px; }
-  .aui .single-comunicato .data-comunicato, .aui .single-comunicato .download-comunicato {
-    text-align: center; }
-  .aui .single-comunicato .data-comunicato {
-    font-weight: bold; }
-  .aui .single-comunicato:nth-child(odd) {
-    background-color: rgba(0, 56, 130, 0.07); }
-  .aui .single-comunicato .download-comunicato .attachment-pdf svg {
-    width: 34px;
-    height: 34px; }
+  .aui .single-comunicato {
+    border-bottom: 1px solid silver;
+    padding: 12px 6px; }
+    .aui .single-comunicato .titolo-comunicato {
+      font-family: AvenirNextLTW02-Regular;
+      font-size: 18px; }
+    .aui .single-comunicato .data-comunicato, .aui .single-comunicato .download-comunicato {
+      text-align: center; }
+    .aui .single-comunicato .data-comunicato {
+      font-weight: bold; }
+    .aui .single-comunicato.odd {
+      background-color: rgba(0, 56, 130, 0.07); }
+    .aui .single-comunicato .download-comunicato .attachment-pdf svg {
+      width: 34px;
+      height: 34px; }
 
 @media print {
   .aui {
