@@ -932,6 +932,9 @@ END HELPERS
       right: 15px;
       position: absolute;
       z-index: 99; }
+  @media (max-width: 767px) {
+    .aui .image-zoom {
+      display: none; } }
   .aui form {
     margin: 0; }
   .aui .parsley-error-list li,
@@ -3772,7 +3775,8 @@ COMPONENTS
         background: white;
         color: #222222; }
       .aui .home-story-box .text-stage.first-box .btn-cta {
-        background: #e6e6e6; }
+        background: #e6e6e6;
+        color: #222222; }
   .aui body:not(.mobile-device) .home-story-box .hover {
     background-color: #003882;
     opacity: 0.4;
