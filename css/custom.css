@@ -6122,6 +6122,8 @@ COMPONENTS
   @media (max-width: 767px) {
     .aui .teaser-25-75 .image-zoom {
       display: none; } }
+  .aui .teaser-25-75 .image-zoom .hover {
+    border-radius: 30px; }
   .aui .teaser-25-75 .image-zoom img {
     border-radius: 30px; }
   .aui .hearing-aid-container {
