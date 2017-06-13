@@ -932,9 +932,6 @@ END HELPERS
       right: 15px;
       position: absolute;
       z-index: 99; }
-  @media (max-width: 767px) {
-    .aui .image-zoom {
-      display: none; } }
   .aui form {
     margin: 0; }
   .aui .parsley-error-list li,
@@ -1044,6 +1041,8 @@ END HELPERS
     display: none; }
   .aui body:not(.mobile-device) span.zoom-wrapper-image.cursor-default .tab-img {
     cursor: default; }
+  .aui body:not(.mobile-device) .teaser-25-75 span.zoom-wrapper-image:hover:after {
+    border-radius: 30px; }
   .aui body:not(.mobile-device) .disclaimer-block h3:hover span.white-border-bottom {
     position: relative; }
     .aui body:not(.mobile-device) .disclaimer-block h3:hover span.white-border-bottom:after {
@@ -6120,6 +6119,11 @@ COMPONENTS
     @media (max-width: 767px) {
       .aui .teaser-25-variant.mobile-top {
         margin-top: 30px; } }
+  @media (max-width: 767px) {
+    .aui .teaser-25-75 .image-zoom {
+      display: none; } }
+  .aui .teaser-25-75 .image-zoom img {
+    border-radius: 30px; }
   .aui .hearing-aid-container {
     min-height: 800px; }
     .aui .hearing-aid-container .aid-finder-wrapper .aid-finder-title-text .typo-h4, .aui .hearing-aid-container .aid-finder-wrapper .aid-finder-title-text .faq-main-container #faq-body-container #faq-accordion .faq-accordion-container .faq-accordion-answer .accordion-body .right-text-section .answer-body.faq-wysiwyg h4, .aui .faq-main-container #faq-body-container #faq-accordion .faq-accordion-container .faq-accordion-answer .accordion-body .right-text-section .answer-body.faq-wysiwyg .hearing-aid-container .aid-finder-wrapper .aid-finder-title-text h4 {
