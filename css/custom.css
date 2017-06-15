@@ -4351,7 +4351,8 @@ COMPONENTS
     height: 400px;
     position: relative; }
     .aui .product-list.gallery-list {
-      height: 360px; }
+      height: 330px;
+      margin-bottom: 30px; }
       .aui .product-list.gallery-list .thumbnail {
         border: none; }
       .aui .product-list.gallery-list .product-text {
