@@ -4354,6 +4354,14 @@ COMPONENTS
       height: 360px; }
       .aui .product-list.gallery-list .thumbnail {
         border: none; }
+      .aui .product-list.gallery-list .product-text {
+        height: 120px; }
+      @media (max-width: 1000px) {
+        .aui .product-list.gallery-list {
+          margin-bottom: 0px; } }
+      @media (max-width: 767px) {
+        .aui .product-list.gallery-list {
+          margin-bottom: 0px; } }
     @media (max-width: 768px) {
       .aui .product-list {
         height: 360px; } }
