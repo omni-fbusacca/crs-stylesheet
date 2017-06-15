@@ -4327,6 +4327,10 @@ COMPONENTS
   .aui .product-list {
     height: 400px;
     position: relative; }
+    .aui .product-list.gallery-list {
+      height: 360px; }
+      .aui .product-list.gallery-list .thumbnail {
+        border: none; }
     @media (max-width: 768px) {
       .aui .product-list {
         height: 360px; } }
