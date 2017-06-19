@@ -7900,6 +7900,9 @@ COMPONENTS
       text-align: center; }
     .aui .single-comunicato .data-comunicato {
       font-weight: bold; }
+      @media (max-width: 1000px) {
+        .aui .single-comunicato .data-comunicato {
+          text-align: left; } }
     .aui .single-comunicato.odd {
       background-color: rgba(0, 56, 130, 0.07); }
     .aui .single-comunicato .download-comunicato .attachment-pdf svg {
