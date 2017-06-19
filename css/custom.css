@@ -7640,7 +7640,7 @@ COMPONENTS
       max-height: 200px;
       height: 200px; }
     .aui .crs-type-content.crs-custom-crs .crs-type-icon {
-      background-color: #013d69; }
+      background-color: #294377; }
       .aui .crs-type-content.crs-custom-crs .crs-type-icon span {
         color: white; }
       .aui .crs-type-content.crs-custom-crs .crs-type-icon .crs-ico {
@@ -7648,17 +7648,17 @@ COMPONENTS
       .aui .crs-type-content.crs-custom-crs .crs-type-icon .location-crs {
         color: white; }
     .aui .crs-type-content.crs-custom-crs .crs-type-text .date-text {
-      color: #013d69; }
+      color: #294377; }
     .aui .crs-type-content.crs-custom-crs .crs-type-text h2, .aui .crs-type-content.crs-custom-crs .crs-type-text h3, .aui .crs-type-content.crs-custom-crs .crs-type-text a {
-      color: #013d69; }
+      color: #294377; }
     .aui .crs-type-content.crs-custom-crs + .crs-type-more-information p, .aui .crs-type-content.crs-custom-crs + .crs-type-more-information h2, .aui .crs-type-content.crs-custom-crs + .crs-type-more-information a, .aui .crs-type-content.crs-custom-crs + .crs-type-more-information span {
-      color: #013d69; }
+      color: #294377; }
     .aui .crs-type-content.crs-custom-crs + .crs-type-more-information li {
-      color: #013d69; }
+      color: #294377; }
       .aui .crs-type-content.crs-custom-crs + .crs-type-more-information li:before {
-        background-color: #013d69; }
+        background-color: #294377; }
     .aui .crs-type-content.crs-custom-edu .crs-type-icon {
-      background-color: #c9d979; }
+      background-color: #c9d879; }
       .aui .crs-type-content.crs-custom-edu .crs-type-icon span {
         color: white; }
       .aui .crs-type-content.crs-custom-edu .crs-type-icon .crs-ico {
@@ -7666,35 +7666,35 @@ COMPONENTS
       .aui .crs-type-content.crs-custom-edu .crs-type-icon .location-crs {
         color: white; }
     .aui .crs-type-content.crs-custom-edu .crs-type-text .date-text {
-      color: #696a6c; }
+      color: #7f7f7f; }
     .aui .crs-type-content.crs-custom-edu .crs-type-text h2, .aui .crs-type-content.crs-custom-edu .crs-type-text h3, .aui .crs-type-content.crs-custom-edu .crs-type-text a {
-      color: #696a6c; }
+      color: #7f7f7f; }
     .aui .crs-type-content.crs-custom-edu + .crs-type-more-information p, .aui .crs-type-content.crs-custom-edu + .crs-type-more-information h2, .aui .crs-type-content.crs-custom-edu + .crs-type-more-information a, .aui .crs-type-content.crs-custom-edu + .crs-type-more-information span {
-      color: #696a6c; }
+      color: #7f7f7f; }
     .aui .crs-type-content.crs-custom-edu + .crs-type-more-information li {
-      color: #696a6c; }
+      color: #7f7f7f; }
       .aui .crs-type-content.crs-custom-edu + .crs-type-more-information li:before {
-        background-color: #696a6c; }
+        background-color: #7f7f7f; }
     .aui .crs-type-content.crs-custom-crsinternational .crs-type-icon {
-      background-color: #013d69; }
+      background-color: #a9b7d4; }
       .aui .crs-type-content.crs-custom-crsinternational .crs-type-icon span {
-        color: #9bbbde; }
+        color: white; }
       .aui .crs-type-content.crs-custom-crsinternational .crs-type-icon .crs-ico {
-        color: #9bbbde; }
+        color: white; }
       .aui .crs-type-content.crs-custom-crsinternational .crs-type-icon .location-crs {
-        color: #9bbbde; }
+        color: white; }
     .aui .crs-type-content.crs-custom-crsinternational .crs-type-text .date-text {
-      color: #696a6c; }
+      color: #7f7f7f; }
     .aui .crs-type-content.crs-custom-crsinternational .crs-type-text h2, .aui .crs-type-content.crs-custom-crsinternational .crs-type-text h3, .aui .crs-type-content.crs-custom-crsinternational .crs-type-text a {
-      color: #696a6c; }
+      color: #7f7f7f; }
     .aui .crs-type-content.crs-custom-crsinternational + .crs-type-more-information p, .aui .crs-type-content.crs-custom-crsinternational + .crs-type-more-information h2, .aui .crs-type-content.crs-custom-crsinternational + .crs-type-more-information a, .aui .crs-type-content.crs-custom-crsinternational + .crs-type-more-information span {
-      color: #696a6c; }
+      color: #7f7f7f; }
     .aui .crs-type-content.crs-custom-crsinternational + .crs-type-more-information li {
-      color: #696a6c; }
+      color: #7f7f7f; }
       .aui .crs-type-content.crs-custom-crsinternational + .crs-type-more-information li:before {
-        background-color: #696a6c; }
+        background-color: #7f7f7f; }
     .aui .crs-type-content.crs-custom-videostreaming .crs-type-icon {
-      background-color: #013d69; }
+      background-color: #376092; }
       .aui .crs-type-content.crs-custom-videostreaming .crs-type-icon span {
         color: white; }
       .aui .crs-type-content.crs-custom-videostreaming .crs-type-icon .crs-ico {
@@ -7702,17 +7702,17 @@ COMPONENTS
       .aui .crs-type-content.crs-custom-videostreaming .crs-type-icon .location-crs {
         color: white; }
     .aui .crs-type-content.crs-custom-videostreaming .crs-type-text .date-text {
-      color: #013d69; }
+      color: #294377; }
     .aui .crs-type-content.crs-custom-videostreaming .crs-type-text h2, .aui .crs-type-content.crs-custom-videostreaming .crs-type-text h3, .aui .crs-type-content.crs-custom-videostreaming .crs-type-text a {
-      color: #013d69; }
+      color: #294377; }
     .aui .crs-type-content.crs-custom-videostreaming + .crs-type-more-information p, .aui .crs-type-content.crs-custom-videostreaming + .crs-type-more-information h2, .aui .crs-type-content.crs-custom-videostreaming + .crs-type-more-information a, .aui .crs-type-content.crs-custom-videostreaming + .crs-type-more-information span {
-      color: #013d69; }
+      color: #294377; }
     .aui .crs-type-content.crs-custom-videostreaming + .crs-type-more-information li {
-      color: #013d69; }
+      color: #294377; }
       .aui .crs-type-content.crs-custom-videostreaming + .crs-type-more-information li:before {
-        background-color: #013d69; }
+        background-color: #294377; }
     .aui .crs-type-content.crs-custom-corsofad .crs-type-icon {
-      background-color: #013d69; }
+      background-color: #b3cc82; }
       .aui .crs-type-content.crs-custom-corsofad .crs-type-icon span {
         color: white; }
       .aui .crs-type-content.crs-custom-corsofad .crs-type-icon .crs-ico {
@@ -7720,17 +7720,17 @@ COMPONENTS
       .aui .crs-type-content.crs-custom-corsofad .crs-type-icon .location-crs {
         color: white; }
     .aui .crs-type-content.crs-custom-corsofad .crs-type-text .date-text {
-      color: #013d69; }
+      color: #294377; }
     .aui .crs-type-content.crs-custom-corsofad .crs-type-text h2, .aui .crs-type-content.crs-custom-corsofad .crs-type-text h3, .aui .crs-type-content.crs-custom-corsofad .crs-type-text a {
-      color: #013d69; }
+      color: #294377; }
     .aui .crs-type-content.crs-custom-corsofad + .crs-type-more-information p, .aui .crs-type-content.crs-custom-corsofad + .crs-type-more-information h2, .aui .crs-type-content.crs-custom-corsofad + .crs-type-more-information a, .aui .crs-type-content.crs-custom-corsofad + .crs-type-more-information span {
-      color: #013d69; }
+      color: #294377; }
     .aui .crs-type-content.crs-custom-corsofad + .crs-type-more-information li {
-      color: #013d69; }
+      color: #294377; }
       .aui .crs-type-content.crs-custom-corsofad + .crs-type-more-information li:before {
-        background-color: #013d69; }
+        background-color: #294377; }
     .aui .crs-type-content.crs-custom-reportcorso .crs-type-icon {
-      background-color: #013d69; }
+      background-color: #bfbfbf; }
       .aui .crs-type-content.crs-custom-reportcorso .crs-type-icon span {
         color: white; }
       .aui .crs-type-content.crs-custom-reportcorso .crs-type-icon .crs-ico {
@@ -7738,17 +7738,17 @@ COMPONENTS
       .aui .crs-type-content.crs-custom-reportcorso .crs-type-icon .location-crs {
         color: white; }
     .aui .crs-type-content.crs-custom-reportcorso .crs-type-text .date-text {
-      color: #013d69; }
+      color: #294377; }
     .aui .crs-type-content.crs-custom-reportcorso .crs-type-text h2, .aui .crs-type-content.crs-custom-reportcorso .crs-type-text h3, .aui .crs-type-content.crs-custom-reportcorso .crs-type-text a {
-      color: #013d69; }
+      color: #294377; }
     .aui .crs-type-content.crs-custom-reportcorso + .crs-type-more-information p, .aui .crs-type-content.crs-custom-reportcorso + .crs-type-more-information h2, .aui .crs-type-content.crs-custom-reportcorso + .crs-type-more-information a, .aui .crs-type-content.crs-custom-reportcorso + .crs-type-more-information span {
-      color: #013d69; }
+      color: #294377; }
     .aui .crs-type-content.crs-custom-reportcorso + .crs-type-more-information li {
-      color: #013d69; }
+      color: #294377; }
       .aui .crs-type-content.crs-custom-reportcorso + .crs-type-more-information li:before {
-        background-color: #013d69; }
+        background-color: #294377; }
     .aui .crs-type-content.crs-custom-consensus .crs-type-icon {
-      background-color: #013d69; }
+      background-color: #909090; }
       .aui .crs-type-content.crs-custom-consensus .crs-type-icon span {
         color: white; }
       .aui .crs-type-content.crs-custom-consensus .crs-type-icon .crs-ico {
@@ -7756,15 +7756,15 @@ COMPONENTS
       .aui .crs-type-content.crs-custom-consensus .crs-type-icon .location-crs {
         color: white; }
     .aui .crs-type-content.crs-custom-consensus .crs-type-text .date-text {
-      color: #013d69; }
+      color: #294377; }
     .aui .crs-type-content.crs-custom-consensus .crs-type-text h2, .aui .crs-type-content.crs-custom-consensus .crs-type-text h3, .aui .crs-type-content.crs-custom-consensus .crs-type-text a {
-      color: #013d69; }
+      color: #294377; }
     .aui .crs-type-content.crs-custom-consensus + .crs-type-more-information p, .aui .crs-type-content.crs-custom-consensus + .crs-type-more-information h2, .aui .crs-type-content.crs-custom-consensus + .crs-type-more-information a, .aui .crs-type-content.crs-custom-consensus + .crs-type-more-information span {
-      color: #013d69; }
+      color: #294377; }
     .aui .crs-type-content.crs-custom-consensus + .crs-type-more-information li {
-      color: #013d69; }
+      color: #294377; }
       .aui .crs-type-content.crs-custom-consensus + .crs-type-more-information li:before {
-        background-color: #013d69; }
+        background-color: #294377; }
   .aui .click-information-open-box .icon-stage_right, .aui .click-information-open-box .info-carousel .slick-next:before, .aui .info-carousel .click-information-open-box .slick-next:before, .aui .click-information-open-box .form-container .shadow-input.select:before, .aui .form-container .click-information-open-box .shadow-input.select:before, .aui .click-information-open-box body:not(.mobile-device) .form-container .shadow-input.select .select2-container .select2-selection .select2-selection__arrow, .aui body:not(.mobile-device) .form-container .shadow-input.select .select2-container .select2-selection .click-information-open-box .select2-selection__arrow, .aui .click-information-open-box .prod-comparison-wrapper .comparison-carousel-box button.slick-next:before, .aui .prod-comparison-wrapper .comparison-carousel-box .click-information-open-box button.slick-next:before {
     -moz-transition: all 0.3s ease;
     -webkit-transition: all 0.3s ease;
