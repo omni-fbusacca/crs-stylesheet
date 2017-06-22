@@ -3640,6 +3640,10 @@ COMPONENTS
       z-index: 1050;
       -webkit-overflow-scrolling: touch;
       outline: 0; }
+      .aui .modal-open .modal-custom.modal-custom-pdf {
+        display: none; }
+      .aui .modal-open .modal-custom.modal-custom-pdf.in {
+        display: block; }
     .aui .modal-open .modal-custom.fade .modal-dialog {
       -moz-transform: translate(0, -25%);
       -o-transform: translate(0, -25%);
