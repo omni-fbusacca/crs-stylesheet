@@ -5,8 +5,8 @@
  }
 
  .aui body:not(.mobile-device) .promo-box-container .promo-box:hover .promo-overlay {
-    background-color: #003882;
-    opacity: 0.6;
+	background-color: #003882;
+	opacity: 0.6;
 }
 
 /* HERO IMG */
