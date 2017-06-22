@@ -1,6 +1,13 @@
 /* NEW BLUE OVERLAY X TEASER ROW */
-.aui .promo-box-container .promo-box .box-shadow { background-color: #003882; opacity: 0.6; }
+.aui .promo-box-container .promo-box .box-shadow {
+	background-color: #003882;
+	opacity: 0.6;
+ }
 
+ .aui body:not(.mobile-device) .promo-box-container .promo-box:hover .promo-overlay {
+    background-color: #003882;
+    opacity: 0.6;
+}
 
 /* HERO IMG */
 .clearer { clear:both; width:100%; }
