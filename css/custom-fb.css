@@ -9,6 +9,11 @@
 	opacity: 0.6;
 }
 
+.aui .short-description-box .hover, .aui .box-img .hover, .aui .image-zoom .hover, .aui .media-video .hover {
+	background-color: #003882;
+	opacity: 0.6;
+}
+
 /* HERO IMG */
 .clearer { clear:both; width:100%; }
 
