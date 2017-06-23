@@ -2584,7 +2584,7 @@ COMPONENTS
     background: #003882; }
     .aui .overlay-megamenu.opened {
       display: block;
-      opacity: 0.8;
+      opacity: 0.6;
       filter: alpha(opacity=80); }
   .aui .overlay-search {
     display: none;
