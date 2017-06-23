@@ -963,7 +963,7 @@ END HELPERS
       display: block;
       position: relative; }
     .aui .short-description-box .hover, .aui .box-img .hover, .aui .image-zoom .hover, .aui .media-video .hover {
-      background-color: rgba(15, 32, 51, 0.4);
+      background-color: rgba(0, 56, 130, 0.6);
       width: 100%;
       height: 100%;
       position: absolute;
@@ -1064,11 +1064,11 @@ END HELPERS
       bottom: 0;
       background-color: #000; }
   .aui body:not(.mobile-device) .promo-box-container .promo-box:hover .promo-overlay {
-    background-color: #0f2033;
-    opacity: 0.4; }
+    background-color: #003882;
+    opacity: 0.6; }
   .aui body:not(.mobile-device) .promo-box-container .promo-box:hover .box-shadow {
-    background-color: #0f2033;
-    opacity: 0.8; }
+    background-color: #003882;
+    opacity: 0.6; }
   @media (max-width: 1024px) {
     .aui .mobile-device .main-navigation .main-nav-sub-menu .second-menu-link .typo-nav-second-level {
       color: #000; } }
@@ -3644,6 +3644,19 @@ COMPONENTS
         display: none; }
       .aui .modal-open .modal-custom.modal-custom-pdf.in {
         display: block; }
+        .aui .modal-open .modal-custom.modal-custom-pdf.in .modal-dialog {
+          height: 100%;
+          max-width: 100%;
+          margin: 50px; }
+        .aui .modal-open .modal-custom.modal-custom-pdf.in .modal-content {
+          height: 90%;
+          min-height: 90%;
+          max-height: 90%;
+          border-radius: 0; }
+          .aui .modal-open .modal-custom.modal-custom-pdf.in .modal-content .modal-body {
+            height: 100%; }
+          .aui .modal-open .modal-custom.modal-custom-pdf.in .modal-content .container-external {
+            height: 90%; }
     .aui .modal-open .modal-custom.fade .modal-dialog {
       -moz-transform: translate(0, -25%);
       -o-transform: translate(0, -25%);
