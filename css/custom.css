@@ -3647,6 +3647,7 @@ COMPONENTS
         .aui .modal-open .modal-custom.modal-custom-pdf.in .modal-dialog {
           height: 100%;
           max-width: 100%;
+          width: auto;
           margin: 50px; }
         .aui .modal-open .modal-custom.modal-custom-pdf.in .modal-content {
           height: 90%;
