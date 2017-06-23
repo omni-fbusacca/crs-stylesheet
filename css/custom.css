@@ -1026,7 +1026,7 @@ END HELPERS
       bottom: -20px;
       left: 0; }
   .aui body:not(.mobile-device) span.zoom-wrapper-image:hover:after {
-    background: rgba(15, 32, 51, 0.4);
+    background: rgba(0, 56, 130, 0.6);
     content: "";
     display: block;
     height: 100%;
@@ -3883,7 +3883,7 @@ COMPONENTS
         color: #222222; }
   .aui body:not(.mobile-device) .home-story-box .hover {
     background-color: #003882;
-    opacity: 0.4;
+    opacity: 0.6;
     width: 100%;
     height: 100%;
     display: none; }
@@ -6210,7 +6210,7 @@ COMPONENTS
       position: relative;
       display: block; }
       .aui .teaser-25-variant a .hover {
-        background-color: rgba(15, 32, 51, 0.4);
+        background-color: rgba(0, 56, 130, 0.6);
         width: 100%;
         height: 100%;
         position: absolute;
