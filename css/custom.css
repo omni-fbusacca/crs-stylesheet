@@ -3650,7 +3650,7 @@ COMPONENTS
           height: 100%;
           max-width: 100%;
           width: auto;
-          padding: 2.5%;
+          padding: 1.5% 2.5%;
           box-sizing: border-box;
           margin: 0; }
         .aui .modal-open .modal-custom.modal-custom-pdf.in .modal-content {
