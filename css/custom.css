@@ -2584,7 +2584,7 @@ COMPONENTS
     background: #003882; }
     .aui .overlay-megamenu.opened {
       display: block;
-      opacity: 0.8;
+      opacity: 0.6;
       filter: alpha(opacity=80); }
   .aui .overlay-search {
     display: none;
@@ -3957,6 +3957,16 @@ COMPONENTS
       .aui .home-main-carousel .two-third, .aui .info-carousel .two-third {
         float: initial;
         width: 100%; } }
+  @media (max-width: 1000px) {
+    .aui .info-carousel .slick-dots {
+      display: inline-block !important;
+      width: auto;
+      text-align: center;
+      float: none;
+      margin: 0 auto;
+      padding-right: 0;
+      left: 50%;
+      transform: translateX(-50%); } }
   .aui .info-carousel .slick-dots button {
     background-color: #f1efee !important; }
   .aui .info-carousel .slick-dots .slick-active button {
