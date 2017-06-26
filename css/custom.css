@@ -3957,8 +3957,12 @@ COMPONENTS
       .aui .home-main-carousel .two-third, .aui .info-carousel .two-third {
         float: initial;
         width: 100%; } }
+  .aui .info-carousel .slick-dots button {
+    background-color: #f1efee !important; }
+  .aui .info-carousel .slick-dots .slick-active button {
+    background-color: #003d6e !important; }
   @media (max-width: 1000px) {
-    .aui .info-carousel .slick-dots {
+    .aui .js-carousel.info-carousel.slick-slider .slick-dots {
       display: inline-block !important;
       width: auto;
       text-align: center;
@@ -3967,10 +3971,6 @@ COMPONENTS
       padding-right: 0;
       left: 50%;
       transform: translateX(-50%); } }
-  .aui .info-carousel .slick-dots button {
-    background-color: #f1efee !important; }
-  .aui .info-carousel .slick-dots .slick-active button {
-    background-color: #003d6e !important; }
   .aui .search-bar {
     text-align: center;
     padding: 35px 0px; }
