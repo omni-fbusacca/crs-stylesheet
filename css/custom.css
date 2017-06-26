@@ -1067,8 +1067,8 @@ END HELPERS
     background-color: #003882;
     opacity: 0.6; }
   .aui body:not(.mobile-device) .promo-box-container .promo-box:hover .box-shadow {
-    background-color: #003882;
-    opacity: 0.6; }
+    background-color: #0f2033;
+    opacity: 0.8; }
   @media (max-width: 1024px) {
     .aui .mobile-device .main-navigation .main-nav-sub-menu .second-menu-link .typo-nav-second-level {
       color: #000; } }
