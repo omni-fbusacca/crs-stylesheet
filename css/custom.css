@@ -3643,19 +3643,24 @@ COMPONENTS
       .aui .modal-open .modal-custom.modal-custom-pdf {
         display: none; }
       .aui .modal-open .modal-custom.modal-custom-pdf.in {
-        display: block; }
+        display: block;
+        overflow: hidden;
+        height: 100%; }
         .aui .modal-open .modal-custom.modal-custom-pdf.in .modal-dialog {
-          height: 87%;
+          height: 100%;
           max-width: 100%;
           width: auto;
-          margin: 50px; }
+          padding: 2.5%;
+          box-sizing: border-box;
+          margin: 0; }
         .aui .modal-open .modal-custom.modal-custom-pdf.in .modal-content {
           height: 100%;
           min-height: 100%;
           max-height: 100%;
           border-radius: 0; }
           .aui .modal-open .modal-custom.modal-custom-pdf.in .modal-content .modal-body {
-            height: 90%; }
+            height: calc(100% - 75px);
+            padding: 0 30px 15px 30px; }
           .aui .modal-open .modal-custom.modal-custom-pdf.in .modal-content .container-external {
             height: 100%; }
     .aui .modal-open .modal-custom.fade .modal-dialog {
