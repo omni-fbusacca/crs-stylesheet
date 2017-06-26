@@ -1067,7 +1067,7 @@ END HELPERS
     background-color: #003882;
     opacity: 0.6; }
   .aui body:not(.mobile-device) .promo-box-container .promo-box:hover .box-shadow {
-    background-color: #0f2033;
+    background-color: #003882;
     opacity: 0.8; }
   @media (max-width: 1024px) {
     .aui .mobile-device .main-navigation .main-nav-sub-menu .second-menu-link .typo-nav-second-level {
@@ -4676,7 +4676,7 @@ COMPONENTS
           height: 105px; } }
     .aui .promo-box-container .promo-box .box-shadow {
       width: 100%;
-      background-color: #000;
+      background-color: #003882;
       opacity: 0.5;
       position: absolute;
       bottom: 0;
