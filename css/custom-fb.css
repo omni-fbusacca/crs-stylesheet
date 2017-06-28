@@ -1,4 +1,4 @@
-// FIX FOR CRS CONTENT
+/* FIX FOR CRS CONTENT */
 
 .aui .crs-type-more-information { padding-bottom: 15px; }
 .aui .crs-type-more-information .crs-type-more-information-row { padding-bottom: 15px; }
@@ -7,3 +7,7 @@
 .aui .crs-type-more-information.accord-index-2 { padding-bottom: 15px; }
 	
 .crs-type-wrapper { color: #5d5d5d; }
+
+
+/* bordo per foto BOARD */
+.aui .teaser-25-75 .image-zoom img { border-radius: 300px; }
