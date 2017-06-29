@@ -11,3 +11,10 @@
 
 /* bordo per foto BOARD */
 .aui .teaser-25-75 .image-zoom img { border-radius: 300px; }
+
+
+
+/* glossario */
+
+.link-char { line-height: 45px; }
+.single-letter-box h1 { text-align: center; font-size: 50px; margin-bottom: 20px; }
