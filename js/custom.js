@@ -1456,6 +1456,7 @@ function crsSameHeight(){
              var windowSize = $(window).width();
              if (windowSize >= 768) {
                 $('.crs-type-content').each(function(){
+                    $(this).find(".crs-same-height").css("min-height","auto");
                     var thisCrsWrapper = $(this).outerHeight();
                     $(this).find(".crs-same-height").css("min-height",thisCrsWrapper+"px");
                 });
