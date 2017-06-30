@@ -7605,6 +7605,9 @@ COMPONENTS
     .aui .crs-type-content .crs-type-image {
       float: left;
       height: 100%; }
+    @media (max-width: 768px) {
+      .aui .crs-type-content .crs-type-image {
+        min-height: auto !important; } }
     .aui .crs-type-content .crs-type-icon {
       text-align: center;
       vertical-align: middle;
@@ -7833,6 +7836,9 @@ COMPONENTS
       display: block;
       width: 25px;
       height: 25px; }
+      @media (max-width: 767px) {
+        .aui .crs-type-more-information .close-accordion-icon {
+          right: 5px; } }
       .aui .crs-type-more-information .close-accordion-icon .icon-close {
         font-size: 25px;
         color: #dbd9d1; }
