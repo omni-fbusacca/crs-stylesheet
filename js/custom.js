@@ -1452,7 +1452,7 @@ function crsSameHeight(){
           });
      }else {
          $('.crs-type-content').each(function(){
-               var thisCrsWrapper = $(this).find("crs-type-text").height();
+               var thisCrsWrapper = $(this).find(".crs-type-text").height();
                $(this).find(".crs-type-icon").css("min-height",thisCrsWrapper+"px");
           });
      }
@@ -1467,7 +1467,7 @@ function crsSameHeight(){
                 });
             }else {
                 $('.crs-type-content').each(function(){
-                    var thisCrsWrapper = $(this).find("crs-type-text").height();
+                    var thisCrsWrapper = $(this).find(".crs-type-text").height();
                     $(this).find(".crs-type-icon").css("min-height",thisCrsWrapper+"px");
                 });
             } 
