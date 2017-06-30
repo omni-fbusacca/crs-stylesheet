@@ -1451,7 +1451,7 @@ function crsSameHeight(){
                $(this).find(".crs-same-height").css("min-height",thisCrsWrapper+"px");
           });
      }
-     if($(".crs-type-content").legth>0) {
+     if($(".crs-type-content").length>0) {
          $(window).resize(function(){
              if (windowSize >= 768) {
                 $('.crs-type-content').each(function(){
