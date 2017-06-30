@@ -7842,6 +7842,9 @@ COMPONENTS
       .aui .crs-type-more-information .close-accordion-icon .icon-close {
         font-size: 25px;
         color: #dbd9d1; }
+        @media (max-width: 767px) {
+          .aui .crs-type-more-information .close-accordion-icon .icon-close {
+            font-size: 15px; } }
     .aui .crs-type-more-information .crs-type-more-information-row {
       padding-bottom: 30px;
       display: table;
