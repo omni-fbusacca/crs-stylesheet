@@ -1445,11 +1445,18 @@ function crsAccordion(){
 }
 function crsSameHeight(){
      var windowSize = $(window).width();
-     if (windowSize >= 768) {
-          $('.crs-type-content').each(function(){
-               var thisCrsWrapper = $(this).outerHeight();
-               $(this).find(".crs-same-height").css("min-height",thisCrsWrapper+"px");
-          });
+     if($(".crs-type-content").legth>0) {
+        $('.crs-type-content').each(function(){
+            var thisCrsWrapper = $(this).outerHeight();
+            $(this).find(".crs-same-height").css("min-height",thisCrsWrapper+"px");
+        });
+         $(window).resize(function(){
+                $('.crs-type-content').each(function(){
+                    var thisCrsWrapper = $(this).outerHeight();
+                    $(this).find(".crs-same-height").css("min-height",thisCrsWrapper+"px");
+                });
+            
+         })
      }
 }
 function initGalleryDemo (){
