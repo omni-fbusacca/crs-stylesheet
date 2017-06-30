@@ -2907,7 +2907,8 @@ COMPONENTS
           .aui .main-navigation.nav-desktop .main-nav-sub-menu .second-menu .second-menu-link > a.link-page {
             float: left;
             padding: 0px 0px 0 30px;
-            width: 85%; }
+            width: 85%; 
+            cursor: default; }
           .aui .main-navigation.nav-desktop .main-nav-sub-menu .second-menu .second-menu-link > a.link-third-level {
             float: left;
             width: 15%;
@@ -3092,7 +3093,8 @@ COMPONENTS
       .aui .main-navigation.nav-desktop .wrap-menu-mobile-right .second-level .second-menu-link > a.link-page {
         float: left;
         padding: 0px 0px 0 30px;
-        width: 85%; }
+        width: 85%;
+        cursor: default; }
       .aui .main-navigation.nav-desktop .wrap-menu-mobile-right .second-level .second-menu-link > a.link-third-level {
         float: left;
         width: 15%;
@@ -3188,7 +3190,8 @@ COMPONENTS
           .aui body.mobile-device .main-navigation.nav-desktop .main-nav-sub-menu .second-menu .second-menu-link > a.link-page {
             float: left;
             padding: 0px 0px 0 30px;
-            width: 85%; }
+            width: 85%;
+            cursor: default; }
           .aui body.mobile-device .main-navigation.nav-desktop .main-nav-sub-menu .second-menu .second-menu-link > a.link-third-level {
             float: left;
             width: 15%;
@@ -3343,7 +3346,8 @@ COMPONENTS
           .aui body.mobile-device .main-navigation.nav-desktop .wrap-menu-mobile-right .second-level .second-menu-link > a.link-page {
             float: left;
             padding: 0px 0px 0 30px;
-            width: 85%; }
+            width: 85%;
+            cursor: default; }
           .aui body.mobile-device .main-navigation.nav-desktop .wrap-menu-mobile-right .second-level .second-menu-link > a.link-third-level {
             float: left;
             width: 15%;
