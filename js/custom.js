@@ -1701,7 +1701,6 @@ $('.picture').each( function() {
 }
 
 function initSameHeightGalleryList(){
-    $(document).ready(function(){
         if($(".product-list.gallery-list").length > 0){
             var maxHeight;
             var galleryLengths = $(".product-list.gallery-list").length;
@@ -1765,10 +1764,8 @@ function initSameHeightGalleryList(){
                             $(this).height("auto");
                         });
                         var rows = Math.ceil(galleryLengths / 2);
-                        console.log("rows: ",rows);
                         for (var i=0; i<rows; i++) {
                             var array = $(".product-list.gallery-list").slice(i*2,i*2+2);
-                            console.log(array);
                             maxHeight = 0;
                             for (var j=0; j<array.length; j++) {
                                 var itemHeight = $(array[j]).height();
@@ -1790,7 +1787,7 @@ function initSameHeightGalleryList(){
             })
         }
 
-    });
+
 }
 
 
