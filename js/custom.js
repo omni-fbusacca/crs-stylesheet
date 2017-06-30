@@ -1700,7 +1700,100 @@ $('.picture').each( function() {
 
 }
 
+function initSameHeightGalleryList(){
+    $(document).ready(function(){
+        if($(".product-list.gallery-list").length > 0){
+            var maxHeight;
+            var galleryLengths = $(".product-list.gallery-list").length;
+            if($(window).width() > 999) {
+                var rows = Math.ceil(galleryLengths / 4);
+                for (var i=0; i<rows; i++) {
+                    var array = $(".product-list.gallery-list").slice(i*4,i*4+4);
+                    maxHeight = 0;
+                    for (var j=0; j<array.length; j++) {
+                        var itemHeight = $(array[j]).height();
+                        if(itemHeight > maxHeight)
+                            maxHeight = itemHeight;
+                        
+                    }
+                    for (var j=0; j<array.length; j++) {
+                        $(array[j]).height(maxHeight);
+                    }
+                }
+            }
+            else {
+                if($(window).width() > 767) {
+                    var rows = Math.ceil(galleryLengths / 2);
+                    for (var i=0; i<rows; i++) {
+                        var array = $(".product-list.gallery-list").slice(i*2,i*2+2);
+                        maxHeight = 0;
+                        for (var j=0; j<array.length; j++) {
+                            var itemHeight = $(array[j]).height();
+                            if(itemHeight > maxHeight)
+                                maxHeight = itemHeight;
+                            
+                        }
+                        for (var j=0; j<array.length; j++) {
+                            $(array[j]).height(maxHeight);
+                        }
+                    }
+                }
+            }
+            $(window).resize(function(){
+                if($(window).width() > 999) {
+                    $(".product-list.gallery-list").each(function(){
+                        $(this).height("auto");
+                    });
+                    var rows = Math.ceil(galleryLengths / 4);
+                    for (var i=0; i<rows; i++) {
+                        var array = $(".product-list.gallery-list").slice(i*4,i*4+4);
+                        maxHeight = 0;
+                        for (var j=0; j<array.length; j++) {
+                            var itemHeight = $(array[j]).height();
+                            if(itemHeight > maxHeight)
+                                maxHeight = itemHeight;
+                            
+                        }
+                        for (var j=0; j<array.length; j++) {
+                            $(array[j]).height(maxHeight);
+                        }
+                    }
+                }
+                else {
+                    if($(window).width() > 767) {
+                        $(".product-list.gallery-list").each(function(){
+                            $(this).height("auto");
+                        });
+                        var rows = Math.ceil(galleryLengths / 2);
+                        console.log("rows: ",rows);
+                        for (var i=0; i<rows; i++) {
+                            var array = $(".product-list.gallery-list").slice(i*2,i*2+2);
+                            console.log(array);
+                            maxHeight = 0;
+                            for (var j=0; j<array.length; j++) {
+                                var itemHeight = $(array[j]).height();
+                                if(itemHeight > maxHeight)
+                                    maxHeight = itemHeight;
+                                
+                            }
+                            for (var j=0; j<array.length; j++) {
+                                $(array[j]).height(maxHeight);
+                            }
+                        }
+                    }
+                }
+            })
+        }
 
+    });
+}
+
+
+
+
+function modalPdfInit() {
+    
+}
 
 
 // Avoid `console` errors in browsers that lack a console.
@@ -1843,6 +1936,8 @@ $(document).ready(function () {
     crsAccordion();
     crsSameHeight();
     initGalleryDemo();
+    initSameHeightGalleryList();
+    modalPdfInit();
 
     /* Ellipsis start */
     setTimeout(initEllipsis, 100);
