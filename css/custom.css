@@ -2907,8 +2907,7 @@ COMPONENTS
           .aui .main-navigation.nav-desktop .main-nav-sub-menu .second-menu .second-menu-link > a.link-page {
             float: left;
             padding: 0px 0px 0 30px;
-            width: 85%; 
-            cursor: default; }
+            width: 85%; }
           .aui .main-navigation.nav-desktop .main-nav-sub-menu .second-menu .second-menu-link > a.link-third-level {
             float: left;
             width: 15%;
@@ -3093,8 +3092,7 @@ COMPONENTS
       .aui .main-navigation.nav-desktop .wrap-menu-mobile-right .second-level .second-menu-link > a.link-page {
         float: left;
         padding: 0px 0px 0 30px;
-        width: 85%;
-        cursor: default; }
+        width: 85%; }
       .aui .main-navigation.nav-desktop .wrap-menu-mobile-right .second-level .second-menu-link > a.link-third-level {
         float: left;
         width: 15%;
@@ -3190,8 +3188,7 @@ COMPONENTS
           .aui body.mobile-device .main-navigation.nav-desktop .main-nav-sub-menu .second-menu .second-menu-link > a.link-page {
             float: left;
             padding: 0px 0px 0 30px;
-            width: 85%;
-            cursor: default; }
+            width: 85%; }
           .aui body.mobile-device .main-navigation.nav-desktop .main-nav-sub-menu .second-menu .second-menu-link > a.link-third-level {
             float: left;
             width: 15%;
@@ -3346,8 +3343,7 @@ COMPONENTS
           .aui body.mobile-device .main-navigation.nav-desktop .wrap-menu-mobile-right .second-level .second-menu-link > a.link-page {
             float: left;
             padding: 0px 0px 0 30px;
-            width: 85%;
-            cursor: default; }
+            width: 85%; }
           .aui body.mobile-device .main-navigation.nav-desktop .wrap-menu-mobile-right .second-level .second-menu-link > a.link-third-level {
             float: left;
             width: 15%;
@@ -8870,26 +8866,5 @@ COMPONENTS
   .heroimg .txt {
     width: 100%;
     padding: 160px 0 0; } }
-    
-/* FIX FOR CRS CONTENT */
-
-.aui .crs-type-more-information { padding-bottom: 15px; }
-.aui .crs-type-more-information .crs-type-more-information-row { padding-bottom: 15px; }
-.aui .crs-type-more-information .crs-type-more-information-text { padding-bottom: 15px; }
-.aui .crs-type-more-information.accord-index-1 { padding-bottom: 15px; }
-.aui .crs-type-more-information.accord-index-2 { padding-bottom: 15px; }
-	
-.crs-type-wrapper { color: #5d5d5d; }
-
-
-/* bordo per foto BOARD */
-.aui .teaser-25-75 .image-zoom img { border-radius: 300px; }
-
-
-
-/* glossario */
-
-.link-char { line-height: 45px; }
-.single-letter-box h1 { text-align: center; font-size: 50px; margin-bottom: 20px; }
 
 /*# sourceMappingURL=../maps/main.css.map */
