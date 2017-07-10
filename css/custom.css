@@ -7774,8 +7774,10 @@ COMPONENTS
       .aui .crs-type-content.crs-custom-reportcorso .crs-type-icon span {
         color: white; }
       .aui .crs-type-content.crs-custom-reportcorso .crs-type-icon .crs-ico {
-        color: white;
-        font-size: 65px; }
+        color: white; }
+        @media (max-width: 1024px) {
+          .aui .crs-type-content.crs-custom-reportcorso .crs-type-icon .crs-ico {
+            font-size: 65px; } }
       .aui .crs-type-content.crs-custom-reportcorso .crs-type-icon .location-crs {
         color: white; }
     .aui .crs-type-content.crs-custom-reportcorso .crs-type-text .date-text {
