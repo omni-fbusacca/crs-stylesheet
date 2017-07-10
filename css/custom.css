@@ -7618,6 +7618,7 @@ COMPONENTS
         position: absolute;
         top: 50%;
         left: 50%;
+        width: 100%;
         -moz-transform: translate(-50%, -50%);
         -o-transform: translate(-50%, -50%);
         -ms-transform: translate(-50%, -50%);
@@ -7638,10 +7639,12 @@ COMPONENTS
           width: 100%;
           padding-top: 20px;
           font-size: 16px;
-          line-height: 16px; }
+          line-height: 16px;
+          word-wrap: break-word; }
           @media (max-width: 767px) {
             .aui .crs-type-content .crs-type-icon .crs-type-icon-box span.location-crs {
-              padding-top: 10px; } }
+              padding-top: 10px;
+              font-size: 14px; } }
     .aui .crs-type-content .crs-type-text {
       border-right: 1px solid #dbd9d1;
       border-left: 1px solid #dbd9d1;
