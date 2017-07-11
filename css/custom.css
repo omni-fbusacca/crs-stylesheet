@@ -1067,7 +1067,7 @@ END HELPERS
     background-color: #003882;
     opacity: 0.6; }
   .aui body:not(.mobile-device) .promo-box-container .promo-box:hover .box-shadow {
-    background-color: #0f2033;
+    background-color: #003882;
     opacity: 0.8; }
   @media (max-width: 1024px) {
     .aui .mobile-device .main-navigation .main-nav-sub-menu .second-menu-link .typo-nav-second-level {
@@ -4685,7 +4685,7 @@ COMPONENTS
           height: 105px; } }
     .aui .promo-box-container .promo-box .box-shadow {
       width: 100%;
-      background-color: #000;
+      background-color: #003882;
       opacity: 0.5;
       position: absolute;
       bottom: 0;
@@ -7780,10 +7780,13 @@ COMPONENTS
         color: white; }
       .aui .crs-type-content.crs-custom-reportcorso .crs-type-icon .crs-ico {
         color: white; }
-        @media (max-width: 1024px) {
+        @media (max-width: 1100px) {
           .aui .crs-type-content.crs-custom-reportcorso .crs-type-icon .crs-ico {
             font-size: 65px; } }
-        @media (max-width: 375px) {
+        @media (max-width: 992px) {
+          .aui .crs-type-content.crs-custom-reportcorso .crs-type-icon .crs-ico {
+            font-size: 55px; } }
+        @media (max-width: 413px) {
           .aui .crs-type-content.crs-custom-reportcorso .crs-type-icon .crs-ico {
             font-size: 40px; } }
       .aui .crs-type-content.crs-custom-reportcorso .crs-type-icon .location-crs {
