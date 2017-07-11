@@ -3801,9 +3801,9 @@ COMPONENTS
   .aui .modal-pdf-button-modal {
     display: inline-block; }
   .aui .modal-pdf-button-link {
-    display: none; }
+    display: none !important; }
   .aui .mobile-device .modal-pdf-button-modal {
-    display: none; }
+    display: none !important; }
   .aui .mobile-device .modal-pdf-button-link {
     display: inline-block; }
   .aui .home-main-carousel .third-box.hidden-box {
