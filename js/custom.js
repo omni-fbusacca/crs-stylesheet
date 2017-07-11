@@ -2021,12 +2021,6 @@ $(document).ready(function () {
             });
         }
     });
-    
-    /* Disable links on second level menu boxes */
-    jQuery('.second-menu-link .link-page').click(function(e) { e.preventDefault(); });
-    jQuery('.second-menu-link .link-page').removeAttr("href");
-    jQuery('.second-menu-link .link-page').removeAttr("title");
-
 });
 
 
