@@ -1090,6 +1090,8 @@ END HELPERS
       background-color: #63809d; }
   .aui .directionsLink {
     cursor: pointer; }
+  .aui .box-opacity-image {
+    box-shadow: 0 0 0 1000px rgba(0, 0, 0, 0.5) inset; }
   .aui .pad-0-xs {
     padding: 0px !important; }
   .aui .pad-5-xs {
@@ -3798,14 +3800,6 @@ COMPONENTS
         box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5); } }
   .aui .text-link.blog-modal:hover, .aui .wysiwyg-extend a.blog-modal:hover, .aui .text-link.blog-modal .blog-modal.blog-counter:hover, .aui .faq-main-container #faq-body-container #faq-accordion .faq-accordion-container .faq-accordion-answer .accordion-body .right-text-section .answer-body.faq-wysiwyg a.blog-modal:hover, .aui .text-link.blog-modal:active, .aui .wysiwyg-extend a.blog-modal:active, .aui .text-link.blog-modal .blog-modal.blog-counter:active, .aui .faq-main-container #faq-body-container #faq-accordion .faq-accordion-container .faq-accordion-answer .accordion-body .right-text-section .answer-body.faq-wysiwyg a.blog-modal:active, .aui .text-link.blog-modal:focus, .aui .wysiwyg-extend a.blog-modal:focus, .aui .text-link.blog-modal .blog-modal.blog-counter:focus, .aui .faq-main-container #faq-body-container #faq-accordion .faq-accordion-container .faq-accordion-answer .accordion-body .right-text-section .answer-body.faq-wysiwyg a.blog-modal:focus {
     color: #003d6e; }
-  .aui .modal-pdf-button-modal {
-    display: inline-block !important; }
-  .aui .modal-pdf-button-link {
-    display: none !important; }
-  .aui .mobile-device .modal-pdf-button-modal {
-    display: none !important; }
-  .aui .mobile-device .modal-pdf-button-link {
-    display: inline-block !important; }
   .aui .home-main-carousel .third-box.hidden-box {
     height: 0;
     overflow: hidden;
