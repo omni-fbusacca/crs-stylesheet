@@ -7027,9 +7027,6 @@ COMPONENTS
         display: block; }
   .aui .faq-main-container #faq-body-container #faq-accordion .faq-accordion-container {
     margin-bottom: 30px; }
-    @media (min-width: 1000px) {
-      .aui .faq-main-container #faq-body-container #faq-accordion .faq-accordion-container {
-        margin-bottom: 70px; } }
     .aui .faq-main-container #faq-body-container #faq-accordion .faq-accordion-container mark {
       color: white;
       background-color: #003d6e;
@@ -7151,7 +7148,7 @@ COMPONENTS
               line-height: 30px; } }
       .aui .faq-main-container #faq-body-container #faq-accordion .faq-accordion-container .faq-accordion-answer .accordion-body .right-text-section .answer-body {
         margin-bottom: 40px;
-        max-height: 200px;
+        max-height: 400px;
         overflow: hidden; }
         .aui .faq-main-container #faq-body-container #faq-accordion .faq-accordion-container .faq-accordion-answer .accordion-body .right-text-section .answer-body.opened {
           max-height: inherit;
@@ -7778,6 +7775,9 @@ COMPONENTS
         @media (max-width: 1024px) {
           .aui .crs-type-content.crs-custom-reportcorso .crs-type-icon .crs-ico {
             font-size: 65px; } }
+        @media (max-width: 375px) {
+          .aui .crs-type-content.crs-custom-reportcorso .crs-type-icon .crs-ico {
+            font-size: 40px; } }
       .aui .crs-type-content.crs-custom-reportcorso .crs-type-icon .location-crs {
         color: white; }
     .aui .crs-type-content.crs-custom-reportcorso .crs-type-text .date-text {
