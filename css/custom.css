@@ -1092,6 +1092,12 @@ END HELPERS
     cursor: pointer; }
   .aui .box-opacity-image {
     box-shadow: 0 0 0 1000px rgba(0, 0, 0, 0.5) inset; }
+  .aui .teaser-25-variant a .hover.box-opacity-image {
+    box-shadow: 0 0 0 1000px rgba(0, 0, 0, 0.5) inset;
+    background-color: transparent;
+    display: block; }
+    .aui .teaser-25-variant a .hover.box-opacity-image:hover {
+      background-color: rgba(0, 56, 130, 0.6); }
   .aui .pad-0-xs {
     padding: 0px !important; }
   .aui .pad-5-xs {
