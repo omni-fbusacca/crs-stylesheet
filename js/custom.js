@@ -2091,3 +2091,31 @@ var waitForFinalEvent = (function () {
         timers[uniqueId] = setTimeout(callback, ms);
     };
 })();
+
+
+Parsley.addMessages('it', {
+	defaultMessage: "Questo valore sembra essere non valido.",
+	type: {
+		email:        "Questo valore deve essere un indirizzo email valido.",
+		url:          "Questo valore deve essere un URL valido.",
+		number:       "Questo valore deve essere un numero valido.",
+		integer:      "Questo valore deve essere un numero valido.",
+		digits:       "Questo valore deve essere di tipo numerico.",
+		alphanum:     "Questo valore deve essere di tipo alfanumerico."
+	},
+	notblank:       "Questo valore non deve essere vuoto.",
+	required:       "Questo valore Ã¨ richiesto.",
+	pattern:        "Questo valore non Ã¨ corretto.",
+	min:            "Questo valore deve essere maggiore di %s.",
+	max:            "Questo valore deve essere minore di %s.",
+	range:          "Questo valore deve essere compreso tra %s e %s.",
+	minlength:      "Questo valore Ã¨ troppo corto. La lunghezza minima Ã¨ di %s caratteri.",
+	maxlength:      "Questo valore Ã¨ troppo lungo. La lunghezza massima Ã¨ di %s caratteri.",
+	length:         "La lunghezza di questo valore deve essere compresa fra %s e %s caratteri.",
+	mincheck:       "Devi scegliere almeno %s opzioni.",
+	maxcheck:       "Devi scegliere al piÃ¹ %s opzioni.",
+	check:          "Devi scegliere tra %s e %s opzioni.",
+	equalto:        "Questo valore deve essere identico."
+});
+
+Parsley.setLocale('it');
