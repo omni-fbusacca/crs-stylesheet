@@ -1816,7 +1816,15 @@ function initSameHeightGalleryList(){
 
 
 function modalPdfInit() {
-    
+    if($(".modal-pdf-button").length>0){
+        $(".modal-pdf-button").on("click",function(e){
+            if($(".mobile-device").length > 0) {
+                e.stopPropagation();
+                var link = $(this).attr("data-link");
+                window.open(link);
+            }
+        })
+    }
 }
 
 
