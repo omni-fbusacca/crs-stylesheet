@@ -1091,10 +1091,10 @@ END HELPERS
   .aui .directionsLink {
     cursor: pointer; }
   .aui .box-opacity-image {
-    box-shadow: 0 0 0 1000px rgba(0, 0, 0, 0.5) inset; }
+    box-shadow: 0 0 0 1000px rgba(0, 0, 0, 0.25) inset; }
   .aui .teaser-25-variant a:before {
     content: "";
-    box-shadow: 0 0 0 1000px rgba(0, 0, 0, 0.5) inset;
+    box-shadow: 0 0 0 1000px rgba(0, 0, 0, 0.25) inset;
     position: absolute;
     left: 0;
     top: 0;
