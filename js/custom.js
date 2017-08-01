@@ -213,6 +213,9 @@ function initHeader() {
              checkIsDevice();
          }, 500, "checkIsDevice");
      });
+     $('.link-page').click(function(e) { e.preventDefault(); });
+     $('.link-page').removeAttr("href");
+     $('.link-page').removeAttr("title");
  }
 
 
@@ -1445,17 +1448,19 @@ function crsAccordion(){
 }
 function crsSameHeight(){
      var windowSize = $(window).width();
-     if (windowSize >= 768) {
-          $('.crs-type-content').each(function(){
-               var thisCrsWrapper = $(this).outerHeight();
-               $(this).find(".crs-same-height").css("min-height",thisCrsWrapper+"px");
-          });
-     }else {
-         $('.crs-type-content').each(function(){
-               var thisCrsWrapper = $(this).find(".crs-type-text").outerHeight();
-               $(this).find(".crs-type-icon").css("min-height",thisCrsWrapper+"px");
-          });
-     }
+     setTimeout(function(){
+       if (windowSize >= 768) {
+            $('.crs-type-content').each(function(){
+                 var thisCrsWrapper = $(this).outerHeight();
+                 $(this).find(".crs-same-height").css("min-height",thisCrsWrapper+"px");
+            });
+       }else {
+           $('.crs-type-content').each(function(){
+                 var thisCrsWrapper = $(this).find(".crs-type-text").outerHeight();
+                 $(this).find(".crs-type-icon").css("min-height",thisCrsWrapper+"px");
+            });
+       }
+       },100);
      if($(".crs-type-content").length>0) {
          $(window).resize(function(){
              var windowSize = $(window).width();
@@ -2092,30 +2097,29 @@ var waitForFinalEvent = (function () {
     };
 })();
 
-
 Parsley.addMessages('it', {
-	defaultMessage: "Questo valore sembra essere non valido.",
-	type: {
-		email:        "Questo valore deve essere un indirizzo email valido.",
-		url:          "Questo valore deve essere un URL valido.",
-		number:       "Questo valore deve essere un numero valido.",
-		integer:      "Questo valore deve essere un numero valido.",
-		digits:       "Questo valore deve essere di tipo numerico.",
-		alphanum:     "Questo valore deve essere di tipo alfanumerico."
-	},
-	notblank:       "Questo valore non deve essere vuoto.",
-	required:       "Questo valore è richiesto.",
-	pattern:        "Questo valore non è corretto.",
-	min:            "Questo valore deve essere maggiore di %s.",
-	max:            "Questo valore deve essere minore di %s.",
-	range:          "Questo valore deve essere compreso tra %s e %s.",
-	minlength:      "Questo valore è troppo corto. La lunghezza minima è di %s caratteri.",
-	maxlength:      "Questo valore è troppo lungo. La lunghezza massima è di %s caratteri.",
-	length:         "La lunghezza di questo valore deve essere compresa fra %s e %s caratteri.",
-	mincheck:       "Devi scegliere almeno %s opzioni.",
-	maxcheck:       "Devi scegliere al più %s opzioni.",
-	check:          "Devi scegliere tra %s e %s opzioni.",
-	equalto:        "Questo valore deve essere identico."
+    defaultMessage: "Questo valore sembra essere non valido.",
+    type: {
+        email:        "Questo valore deve essere un indirizzo email valido.",
+        url:          "Questo valore deve essere un URL valido.",
+        number:       "Questo valore deve essere un numero valido.",
+        integer:      "Questo valore deve essere un numero valido.",
+        digits:       "Questo valore deve essere di tipo numerico.",
+        alphanum:     "Questo valore deve essere di tipo alfanumerico."
+    },
+    notblank:       "Questo valore non deve essere vuoto.",
+    required:       "Questo valore è richiesto.",
+    pattern:        "Questo valore non è corretto.",
+    min:            "Questo valore deve essere maggiore di %s.",
+    max:            "Questo valore deve essere minore di %s.",
+    range:          "Questo valore deve essere compreso tra %s e %s.",
+    minlength:      "Questo valore è troppo corto. La lunghezza minima è di %s caratteri.",
+    maxlength:      "Questo valore è troppo lungo. La lunghezza massima è di %s caratteri.",
+    length:         "La lunghezza di questo valore deve essere compresa fra %s e %s caratteri.",
+    mincheck:       "Devi scegliere almeno %s opzioni.",
+    maxcheck:       "Devi scegliere al più %s opzioni.",
+    check:          "Devi scegliere tra %s e %s opzioni.",
+    equalto:        "Questo valore deve essere identico."
 });
 
 Parsley.setLocale('it');
