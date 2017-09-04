@@ -2123,7 +2123,7 @@ END HELPERS
     -webkit-animation-name: fadeOutDown;
     animation-name: fadeOutDown; }
 
-/*@-webkit-keyframes fadeInRight {
+@-webkit-keyframes fadeInRight {
   from {
     opacity: 0;
     -webkit-transform: translate3d(100%, 0, 0);
@@ -2145,7 +2145,6 @@ END HELPERS
   .aui .fadeInRight {
     -webkit-animation-name: fadeInRight;
     animation-name: fadeInRight; }
-*/
 
 @-webkit-keyframes fadeInLeft {
   from {
