@@ -6270,7 +6270,7 @@ COMPONENTS
   .aui .teaser-25-75 .image-zoom .hover {
     border-radius: 30px; }
   .aui .teaser-25-75 .image-zoom img {
-    border-radius: 300px; }
+    border-radius: 30px; }
   .aui .hearing-aid-container {
     min-height: 800px; }
     .aui .hearing-aid-container .aid-finder-wrapper .aid-finder-title-text .typo-h4, .aui .hearing-aid-container .aid-finder-wrapper .aid-finder-title-text .faq-main-container #faq-body-container #faq-accordion .faq-accordion-container .faq-accordion-answer .accordion-body .right-text-section .answer-body.faq-wysiwyg h4, .aui .faq-main-container #faq-body-container #faq-accordion .faq-accordion-container .faq-accordion-answer .accordion-body .right-text-section .answer-body.faq-wysiwyg .hearing-aid-container .aid-finder-wrapper .aid-finder-title-text h4 {
@@ -8472,6 +8472,67 @@ COMPONENTS
     display: none !important; }
   .aui .pswp--minimal--dark .pswp__top-bar {
     background: none; }
+  @media (max-width: 767px) {
+    .aui .overlay-login-layer {
+      padding: 0 20px; } }
+  .aui .overlay-login-layer .login-layer-header {
+    text-align: center; }
+  .aui .overlay-login-layer .login-layer-footer {
+    text-align: center; }
+  .aui .overlay-login-layer .portlet-login {
+    padding: 30px 0; }
+    .aui .overlay-login-layer .portlet-login .input-text-wrapper {
+      padding-bottom: 20px; }
+      @media (max-width: 767px) {
+        .aui .overlay-login-layer .portlet-login .input-text-wrapper {
+          text-align: center; } }
+      .aui .overlay-login-layer .portlet-login .input-text-wrapper .control-label {
+        width: 45%;
+        display: inline-block;
+        text-align: right;
+        margin-right: 3%;
+        font-size: 32px;
+        line-height: 1.2;
+        color: #222222; }
+        @media (max-width: 767px) {
+          .aui .overlay-login-layer .portlet-login .input-text-wrapper .control-label {
+            width: 100%;
+            text-align: center;
+            margin-bottom: 15px; } }
+      .aui .overlay-login-layer .portlet-login .input-text-wrapper .field {
+        width: 40%;
+        display: inline-block;
+        vertical-align: middle;
+        border-radius: 65px;
+        height: 65px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 0px 15px inset;
+        padding: 0 30px;
+        background: none;
+        font-size: 18px;
+        position: relative; }
+        @media (max-width: 767px) {
+          .aui .overlay-login-layer .portlet-login .input-text-wrapper .field {
+            width: 100%;
+            text-align: center; } }
+    .aui .overlay-login-layer .portlet-login .button-holder {
+      text-align: center; }
+      .aui .overlay-login-layer .portlet-login .button-holder .btn-primary {
+        display: inline-block;
+        background: #003d6e;
+        border: none;
+        box-shadow: none;
+        height: 50px;
+        line-height: 46px;
+        color: #fff;
+        font-size: 20px;
+        padding: 0 30px;
+        border-radius: 50px;
+        font-family: "Avenir Next Demi";
+        letter-spacing: 1px;
+        white-space: nowrap; }
+        .aui .overlay-login-layer .portlet-login .button-holder .btn-primary:hover, .aui .overlay-login-layer .portlet-login .button-holder .btn-primary:focus {
+          background: #003882;
+          color: #fff; }
 
 @media print {
   .aui {
@@ -8884,4 +8945,4 @@ COMPONENTS
     width: 100%;
     padding: 160px 0 0; } }
 
-/*# sourceMappingURL=../maps/main.css.map */
+/*# sourceMappingURL=../maps/custom-international.css.map */
