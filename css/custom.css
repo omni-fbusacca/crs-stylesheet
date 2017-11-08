@@ -2337,8 +2337,9 @@ COMPONENTS
               font-weight: bold;
               color: #003d6e; }
             .aui header .menu-header .upper-header-nav > ul > li.item-login.disabled {
-              opacity: 0.5;
-              cursor: default; }
+              opacity: 0.5; }
+              .aui header .menu-header .upper-header-nav > ul > li.item-login.disabled a {
+                cursor: default; }
         .aui header .menu-header .upper-header-nav .icon-search, .aui header .menu-header .upper-header-nav .icon-location {
           font-size: 25px;
           vertical-align: middle;
