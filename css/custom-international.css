@@ -11218,10 +11218,12 @@ END HELPERS
 .inline-login-custom-container iframe {
   height: 520px; }
 
-.inline-login-custom-container .alert.alert-error {
-  top: -30px; }
+@media (min-width: 768px) {
+  .inline-login-custom-container .alert.alert-error {
+    top: -30px; } }
 
-.inline-login-custom-container form .alert.alert-error {
-  top: -30px; }
+@media (min-width: 768px) {
+  .inline-login-custom-container form .alert.alert-error {
+    top: -30px; } }
 
 /*# sourceMappingURL=../maps/custom-international.css.map */
