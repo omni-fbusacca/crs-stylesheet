@@ -2333,6 +2333,12 @@ COMPONENTS
                     font-size: 26px; }
             .aui header .menu-header .upper-header-nav > ul > li.item-location .icon-location {
               padding-right: 5px; }
+            .aui header .menu-header .upper-header-nav > ul > li.item-login a {
+              font-weight: bold;
+              color: #003d6e; }
+            .aui header .menu-header .upper-header-nav > ul > li.item-login.disabled {
+              opacity: 0.5;
+              cursor: default; }
         .aui header .menu-header .upper-header-nav .icon-search, .aui header .menu-header .upper-header-nav .icon-location {
           font-size: 25px;
           vertical-align: middle;
@@ -6270,7 +6276,7 @@ COMPONENTS
   .aui .teaser-25-75 .image-zoom .hover {
     border-radius: 30px; }
   .aui .teaser-25-75 .image-zoom img {
-    border-radius: 300px; }
+    border-radius: 30px; }
   .aui .hearing-aid-container {
     min-height: 800px; }
     .aui .hearing-aid-container .aid-finder-wrapper .aid-finder-title-text .typo-h4, .aui .hearing-aid-container .aid-finder-wrapper .aid-finder-title-text .faq-main-container #faq-body-container #faq-accordion .faq-accordion-container .faq-accordion-answer .accordion-body .right-text-section .answer-body.faq-wysiwyg h4, .aui .faq-main-container #faq-body-container #faq-accordion .faq-accordion-container .faq-accordion-answer .accordion-body .right-text-section .answer-body.faq-wysiwyg .hearing-aid-container .aid-finder-wrapper .aid-finder-title-text h4 {
