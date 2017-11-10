@@ -1917,6 +1917,14 @@ function initTouchIpadClick(){
     });
 }
 
+function initParsleyLocale(){
+	if (jQuery("body").hasClass("crs-international-cs")){
+		Parsley.setLocale('en');
+	} else if (jQuery("body").hasClass("crs-default-cs")){
+		Parsley.setLocale('it');
+	}
+}
+
 function handleMobileModals(){
     // $('[data-toggle="modal-custom"][data-target="#book-appointment"], [data-toggle="modal-custom"][data-target="#modal-download"]').click(function(){
     $('[data-toggle="modal-custom"][data-target="#modal-download"]').click(function(){
@@ -1975,6 +1983,7 @@ $(document).ready(function () {
     initGalleryDemo();
     initSameHeightGalleryList();
     modalPdfInit();
+    initParsleyLocale();
 
     /* Ellipsis start */
     setTimeout(initEllipsis, 100);
@@ -2121,5 +2130,3 @@ Parsley.addMessages('it', {
     check:          "Devi scegliere tra %s e %s opzioni.",
     equalto:        "Questo valore deve essere identico."
 });
-
-Parsley.setLocale('it');
