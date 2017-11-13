@@ -3441,6 +3441,8 @@ COMPONENTS
     list-style: none; }
     .aui .footer-container .footer-menu li a {
       color: black; }
+    .aui .footer-container .footer-menu li.highlighted a {
+      color: #003d6e; }
       @media (max-width: 1000px) {
         .aui .footer-container .footer-menu li a {
           font-size: 16px; } }
