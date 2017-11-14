@@ -216,6 +216,10 @@ function initHeader() {
      $('.link-page').click(function(e) { e.preventDefault(); });
      $('.link-page').removeAttr("href");
      $('.link-page').removeAttr("title");
+
+     $('.item-login.disabled a').on('click',function(e){
+        e.preventDefault();
+     })
  }
 
 
