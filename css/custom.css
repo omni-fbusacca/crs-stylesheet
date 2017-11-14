@@ -3441,11 +3441,11 @@ COMPONENTS
     list-style: none; }
     .aui .footer-container .footer-menu li a {
       color: black; }
-    .aui .footer-container .footer-menu li.highlighted a {
-      color: #003d6e; }
       @media (max-width: 1000px) {
         .aui .footer-container .footer-menu li a {
           font-size: 16px; } }
+    .aui .footer-container .footer-menu li.highlighted a {
+      color: #003d6e; }
     .aui .footer-container .footer-menu.main-menu {
       float: right; }
       @media (min-width: 2000px) {
