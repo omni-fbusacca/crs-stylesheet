@@ -2796,6 +2796,17 @@ COMPONENTS
         left: 10px; } }
   .aui .mobile-device header .logo-header svg {
     left: 0;
+    top: 0px;
+    max-height: 60px;
+    max-width: 120px; }
+    @media (max-width: 767px) {
+      .aui .mobile-device header .logo-header svg {
+        left: 0;
+        top: 5px;
+        max-height: 50px;
+        max-width: 100px; } }
+  .aui .crs-international-cs .mobile-device header .logo-header svg {
+    left: 0;
     top: 50%;
     -moz-transform: translateY(-50%);
     -o-transform: translateY(-50%);
@@ -2805,7 +2816,7 @@ COMPONENTS
     max-height: 60px;
     max-width: 120px; }
     @media (max-width: 767px) {
-      .aui .mobile-device header .logo-header svg {
+      .aui .crs-international-cs .mobile-device header .logo-header svg {
         left: 0;
         max-height: 50px;
         max-width: 100px; } }
