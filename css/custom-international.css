@@ -2821,6 +2821,17 @@ END FONTS
         left: 10px; } }
   .aui .mobile-device header .logo-header svg {
     left: 0;
+    top: 0px;
+    max-height: 60px;
+    max-width: 120px; }
+    @media (max-width: 767px) {
+      .aui .mobile-device header .logo-header svg {
+        left: 0;
+        top: 5px;
+        max-height: 50px;
+        max-width: 100px; } }
+  .aui .crs-international-cs header .logo-header svg {
+    left: 0;
     top: 50%;
     -moz-transform: translateY(-50%);
     -o-transform: translateY(-50%);
@@ -2828,9 +2839,15 @@ END FONTS
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
     max-height: 60px;
-    max-width: 120px; }
+    max-width: 230px;
+    width: 100%;
+    height: 100%; }
+    @media (max-width: 999px) {
+      .aui .crs-international-cs header .logo-header svg {
+        max-width: 135px; } }
     @media (max-width: 767px) {
-      .aui .mobile-device header .logo-header svg {
+      .aui .crs-international-cs header .logo-header svg {
+        top: 0;
         left: 0;
         max-height: 50px;
         max-width: 100px; } }
