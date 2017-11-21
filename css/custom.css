@@ -3664,6 +3664,9 @@ COMPONENTS
   @media (max-width: 1000px) and (min-width: 768px) {
     .aui .footer-container .footer-menu.main-menu li a {
       letter-spacing: 0; } }
+  .aui .crs-international-cs .footer-container .logo-crs {
+    width: 230px;
+    height: 100px; }
   .aui .modal-custom {
     display: none; }
   .aui .modal-open {
