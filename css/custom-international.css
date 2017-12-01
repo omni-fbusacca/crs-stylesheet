@@ -11239,10 +11239,10 @@ END HELPERS
       padding: 0; } }
 
 #modalLogin iframe {
-  height: 520px; }
+  height: 530px; }
 
 .inline-login-custom-container iframe {
-  height: 520px; }
+  height: 530px; }
 
 .registration-form-page select.js-custom-select + .parsley-errors-list {
   position: absolute;
