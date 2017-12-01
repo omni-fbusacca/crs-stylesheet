@@ -3027,6 +3027,10 @@ END FONTS
         font-weight: bold;
         margin-right: 20px;
         color: #003d6e; }
+        .aui .main-navigation.nav-desktop .btn-back-level .icon-stage_left:before, .aui .main-navigation.nav-desktop .btn-back-level .info-carousel .slick-prev:before, .aui .info-carousel .main-navigation.nav-desktop .btn-back-level .slick-prev:before, .aui .main-navigation.nav-desktop .btn-back-level .info-carousel .slick-next:before, .aui .info-carousel .main-navigation.nav-desktop .btn-back-level .slick-next:before, .aui .main-navigation.nav-desktop .btn-back-level .prod-comparison-wrapper .comparison-carousel-box button.slick-prev:before, .aui .prod-comparison-wrapper .comparison-carousel-box .main-navigation.nav-desktop .btn-back-level button.slick-prev:before {
+          position: relative;
+          top: 2px;
+          margin-right: 10px; }
     .aui .main-navigation.nav-desktop.menu-mobile-open {
       left: 0; } }
   @media all and (max-width: 999px) {
