@@ -4851,7 +4851,8 @@ END FONTS
         font-size: 30px;
         line-height: 10px;
         padding-left: 10px;
-        position: relative; }
+        position: relative;
+        top: 2px; }
         .aui .promo-box-container .promo-box .text-container .text .arrow span {
           position: absolute;
           top: 14px; }
@@ -7898,9 +7899,6 @@ END FONTS
     transition: all 0.3s ease;
     margin-top: -1px !important; }
   .aui .crs-type-more-information {
-    border-left: 1px solid #dbd9d1;
-    border-right: 1px solid #dbd9d1;
-    border-bottom: 1px solid #dbd9d1;
     padding: 30px 15px;
     width: 100%;
     position: relative;
@@ -11236,6 +11234,9 @@ END HELPERS
 
 #modalLogin .modal-body {
   padding: 0 0 30px 0; }
+  @media (max-width: 767px) {
+    #modalLogin .modal-body {
+      padding: 0; } }
 
 #modalLogin iframe {
   height: 520px; }
@@ -11247,5 +11248,8 @@ END HELPERS
   position: absolute;
   bottom: -30px;
   left: 0; }
+
+.crs-international-cs .letters .link-char {
+  line-height: 1.1; }
 
 /*# sourceMappingURL=../maps/custom-international.css.map */

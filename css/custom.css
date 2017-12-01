@@ -4826,7 +4826,8 @@ COMPONENTS
         font-size: 30px;
         line-height: 10px;
         padding-left: 10px;
-        position: relative; }
+        position: relative;
+        top: 2px; }
         .aui .promo-box-container .promo-box .text-container .text .arrow span {
           position: absolute;
           top: 14px; }
@@ -7873,9 +7874,6 @@ COMPONENTS
     transition: all 0.3s ease;
     margin-top: -1px !important; }
   .aui .crs-type-more-information {
-    border-left: 1px solid #dbd9d1;
-    border-right: 1px solid #dbd9d1;
-    border-bottom: 1px solid #dbd9d1;
     padding: 30px 15px;
     width: 100%;
     position: relative;
