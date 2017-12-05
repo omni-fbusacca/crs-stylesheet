@@ -8511,6 +8511,47 @@ COMPONENTS
     display: none !important; }
   .aui .pswp--minimal--dark .pswp__top-bar {
     background: none; }
+  .aui .cookie-banner {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    background: rgba(0, 56, 130, 0.8);
+    color: #ffffff;
+    z-index: 999999;
+    padding: 0px;
+    font-size: 16px; }
+    @media (max-width: 768px) {
+      .aui .cookie-banner {
+        top: auto;
+        bottom: 0; } }
+    .aui .cookie-banner .cookies-content {
+      position: relative;
+      padding: 30px 60px 30px 30px; }
+      .aui .cookie-banner .cookies-content .cookies-description * {
+        font-size: 16px;
+        line-height: 1.25;
+        letter-spacing: 0.2px;
+        font-family: "AvenirNextLTW02-Regular";
+        list-style: none;
+        color: #ffffff;
+        margin: 0;
+        padding: 0; }
+      .aui .cookie-banner .cookies-content .cookies-description a {
+        cursor: pointer;
+        text-decoration: underline;
+        color: #ffffff; }
+        .aui .cookie-banner .cookies-content .cookies-description a:hover {
+          text-decoration: underline;
+          color: #ffffff; }
+      .aui .cookie-banner .cookies-content .cookies-accept {
+        position: absolute;
+        top: 50%;
+        right: 20px;
+        transform: translateY(-50%); }
+        .aui .cookie-banner .cookies-content .cookies-accept .icon-close {
+          color: #ffffff;
+          font-size: 25px; }
 
 @media print {
   .aui {
