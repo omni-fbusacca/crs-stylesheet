@@ -11261,4 +11261,24 @@ END HELPERS
 .crs-international-cs .letters .link-char {
   line-height: 1.1; }
 
+.crs-international-cs .home-main-carousel .slick-dots {
+  width: 100%;
+  background-color: #f1efee;
+  float: right;
+  padding: 25px 20px 0 0;
+  height: 45px;
+  position: relative; }
+
+.crs-international-cs .home-main-carousel .slick-dots li {
+  display: block;
+  float: right;
+  width: 35px; }
+
+.crs-international-cs .home-main-carousel .pause-play-container {
+  display: block;
+  position: absolute;
+  height: 30px;
+  width: 100px;
+  right: 135px; }
+
 /*# sourceMappingURL=../maps/custom-international.css.map */
