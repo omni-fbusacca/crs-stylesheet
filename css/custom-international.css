@@ -3942,7 +3942,12 @@ END FONTS
       text-align: center; }
       @media (max-width: 768px) {
         .aui .home-story-box .text-stage.first-box {
-          bottom: 28%; } }
+          bottom: 50%;
+          -moz-transform: translateY(50%);
+          -o-transform: translateY(50%);
+          -ms-transform: translateY(50%);
+          -webkit-transform: translateY(50%);
+          transform: translateY(50%); } }
       @media (max-width: 767px) {
         .aui .home-story-box .text-stage.first-box {
           bottom: 10%; } }
