@@ -1837,6 +1837,13 @@ function modalPdfInit() {
 }
 
 
+function modalLoginInit(){
+    if($("#modalLogin").length > 0){
+        $('#modalLogin').on('shown.bs.modal', function () {
+            $('#modalLogin iframe').contents().scrollTop(0);
+        })
+    }
+}
 // Avoid `console` errors in browsers that lack a console.
 (function () {
     var method;
@@ -1988,6 +1995,7 @@ $(document).ready(function () {
     initSameHeightGalleryList();
     modalPdfInit();
     initParsleyLocale();
+    modalLoginInit();
 
     /* Ellipsis start */
     setTimeout(initEllipsis, 100);
