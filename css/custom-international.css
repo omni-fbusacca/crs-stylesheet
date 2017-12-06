@@ -3950,7 +3950,12 @@ END FONTS
           transform: translateY(50%); } }
       @media (max-width: 767px) {
         .aui .home-story-box .text-stage.first-box {
-          bottom: 10%; } }
+          bottom: 10%;
+          -moz-transform: none;
+          -o-transform: none;
+          -ms-transform: none;
+          -webkit-transform: none;
+          transform: none; } }
       .aui .home-story-box .text-stage.first-box h1 {
         margin-bottom: 5px; }
       .aui .home-story-box .text-stage.first-box h2 {
