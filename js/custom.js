@@ -1738,7 +1738,8 @@ function initSameHeightGalleryList(){
             if($(window).width() > 999) {
                 var rows = Math.ceil(galleryLengths / 4);
                 for (var i=0; i<rows; i++) {
-                    var array = $(".product-list.gallery-list").slice(i*4,i*4+4);
+                    //var array = $(".product-list.gallery-list").slice(i*4,i*4+4);
+		    var array = $(".product-list.gallery-list").slice(i*3,i*3+3);
                     maxHeight = 0;
                     for (var j=0; j<array.length; j++) {
                         var itemHeight = $(array[j]).height();
