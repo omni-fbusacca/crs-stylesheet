@@ -8970,3 +8970,7 @@ COMPONENTS
     padding: 160px 0 0; } }
 
 /*# sourceMappingURL=../maps/main.css.map */
+
+.aui .product-list.gallery-list .product-text .copy-text{
+	max-height:initial;
+}
